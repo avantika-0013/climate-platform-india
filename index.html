@@ -80,51 +80,39 @@ tr { cursor: pointer; }
 <div class="sidebar">
   <div class="logo">
     <h2>ClimateTech India</h2>
-    <p>318 startups &middot; Updated March 17, 2026</p>
+    <p>268 startups &middot; Updated March 17, 2026</p>
   </div>
   <div class="nav-item active" onclick="showPage('overview')">Overview</div>
   <div class="nav-item" onclick="showPage('all')">All Companies</div>
   <div class="nav-section">Sectors</div>
-  <div class="nav-item" onclick="showPage('sector', 'Clean Energy')"><span class="nav-dot" style="background:#F59E0B"></span>Clean Energy <span style="margin-left:auto;font-size:11px;color:var(--text-muted)">30</span></div>
-  <div class="nav-item" onclick="showPage('sector', 'Mobility & Transport')"><span class="nav-dot" style="background:#3B82F6"></span>Mobility & Transport <span style="margin-left:auto;font-size:11px;color:var(--text-muted)">54</span></div>
-  <div class="nav-item" onclick="showPage('sector', 'Green Hydrogen')"><span class="nav-dot" style="background:#10B981"></span>Green Hydrogen <span style="margin-left:auto;font-size:11px;color:var(--text-muted)">12</span></div>
-  <div class="nav-item" onclick="showPage('sector', 'Carbon & Capture')"><span class="nav-dot" style="background:#6366F1"></span>Carbon & Capture <span style="margin-left:auto;font-size:11px;color:var(--text-muted)">17</span></div>
-  <div class="nav-item" onclick="showPage('sector', 'Agriculture & Food')"><span class="nav-dot" style="background:#84CC16"></span>Agriculture & Food <span style="margin-left:auto;font-size:11px;color:var(--text-muted)">45</span></div>
-  <div class="nav-item" onclick="showPage('sector', 'Circular Economy')"><span class="nav-dot" style="background:#EC4899"></span>Circular Economy <span style="margin-left:auto;font-size:11px;color:var(--text-muted)">57</span></div>
-  <div class="nav-item" onclick="showPage('sector', 'Built Environment')"><span class="nav-dot" style="background:#F97316"></span>Built Environment <span style="margin-left:auto;font-size:11px;color:var(--text-muted)">28</span></div>
-  <div class="nav-item" onclick="showPage('sector', 'Water & Ocean')"><span class="nav-dot" style="background:#06B6D4"></span>Water & Ocean <span style="margin-left:auto;font-size:11px;color:var(--text-muted)">16</span></div>
-  <div class="nav-item" onclick="showPage('sector', 'Climate Software')"><span class="nav-dot" style="background:#8B5CF6"></span>Climate Software <span style="margin-left:auto;font-size:11px;color:var(--text-muted)">30</span></div>
-  <div class="nav-item" onclick="showPage('sector', 'Energy Storage')"><span class="nav-dot" style="background:#EF4444"></span>Energy Storage <span style="margin-left:auto;font-size:11px;color:var(--text-muted)">20</span></div>
-  <div class="nav-item" onclick="showPage('sector', 'Nature-Based')"><span class="nav-dot" style="background:#22C55E"></span>Nature-Based <span style="margin-left:auto;font-size:11px;color:var(--text-muted)">2</span></div>
-  <div class="nav-item" onclick="showPage('sector', 'Other')"><span class="nav-dot" style="background:#64748B"></span>Other <span style="margin-left:auto;font-size:11px;color:var(--text-muted)">7</span></div>
+  <div class="nav-item" onclick="showPage('sector', 'Clean Energy & Storage')"><span class="nav-dot" style="background:#f0a500"></span>Clean Energy & Storage <span style="margin-left:auto;font-size:11px;color:var(--text-muted)">55</span></div>
+  <div class="nav-item" onclick="showPage('sector', 'Mobility & Transport')"><span class="nav-dot" style="background:#00c4ff"></span>Mobility & Transport <span style="margin-left:auto;font-size:11px;color:var(--text-muted)">50</span></div>
+  <div class="nav-item" onclick="showPage('sector', 'Food, Land & Carbon')"><span class="nav-dot" style="background:#7ecb35"></span>Food, Land & Carbon <span style="margin-left:auto;font-size:11px;color:var(--text-muted)">53</span></div>
+  <div class="nav-item" onclick="showPage('sector', 'Industry & Circular Economy')"><span class="nav-dot" style="background:#ff6b35"></span>Industry & Circular Economy <span style="margin-left:auto;font-size:11px;color:var(--text-muted)">54</span></div>
+  <div class="nav-item" onclick="showPage('sector', 'Built Environment & Cities')"><span class="nav-dot" style="background:#b06eff"></span>Built Environment & Cities <span style="margin-left:auto;font-size:11px;color:var(--text-muted)">38</span></div>
+  <div class="nav-item" onclick="showPage('sector', 'Climate Intelligence')"><span class="nav-dot" style="background:#2eff7b"></span>Climate Intelligence <span style="margin-left:auto;font-size:11px;color:var(--text-muted)">18</span></div>
 </div>
 
 <div class="main">
   <div id="page-overview">
     <div class="page-header">
       <h1>ClimateTech India Startup Database</h1>
-      <p>318 startups across 12 sectors &middot; Last updated March 17, 2026</p>
+      <p>268 startups across 6 sectors &middot; Last updated March 17, 2026</p>
     </div>
     <div class="sector-grid">
-      <div class="sector-card" onclick="showPage('sector','Clean Energy')"><div class="count" style="color:#F59E0B">30</div><h3>Clean Energy</h3><div class="label">startups</div></div>
-      <div class="sector-card" onclick="showPage('sector','Mobility & Transport')"><div class="count" style="color:#3B82F6">54</div><h3>Mobility & Transport</h3><div class="label">startups</div></div>
-      <div class="sector-card" onclick="showPage('sector','Green Hydrogen')"><div class="count" style="color:#10B981">12</div><h3>Green Hydrogen</h3><div class="label">startups</div></div>
-      <div class="sector-card" onclick="showPage('sector','Carbon & Capture')"><div class="count" style="color:#6366F1">17</div><h3>Carbon & Capture</h3><div class="label">startups</div></div>
-      <div class="sector-card" onclick="showPage('sector','Agriculture & Food')"><div class="count" style="color:#84CC16">45</div><h3>Agriculture & Food</h3><div class="label">startups</div></div>
-      <div class="sector-card" onclick="showPage('sector','Circular Economy')"><div class="count" style="color:#EC4899">57</div><h3>Circular Economy</h3><div class="label">startups</div></div>
-      <div class="sector-card" onclick="showPage('sector','Built Environment')"><div class="count" style="color:#F97316">28</div><h3>Built Environment</h3><div class="label">startups</div></div>
-      <div class="sector-card" onclick="showPage('sector','Water & Ocean')"><div class="count" style="color:#06B6D4">16</div><h3>Water & Ocean</h3><div class="label">startups</div></div>
-      <div class="sector-card" onclick="showPage('sector','Climate Software')"><div class="count" style="color:#8B5CF6">30</div><h3>Climate Software</h3><div class="label">startups</div></div>
-      <div class="sector-card" onclick="showPage('sector','Energy Storage')"><div class="count" style="color:#EF4444">20</div><h3>Energy Storage</h3><div class="label">startups</div></div>
-      <div class="sector-card" onclick="showPage('sector','Nature-Based')"><div class="count" style="color:#22C55E">2</div><h3>Nature-Based</h3><div class="label">startups</div></div>
-      <div class="sector-card" onclick="showPage('sector','Other')"><div class="count" style="color:#64748B">7</div><h3>Other</h3><div class="label">startups</div></div>
+      <div class="sector-card" onclick="showPage('sector','Clean Energy & Storage')"><div class="count" style="color:#f0a500">55</div><h3>Clean Energy & Storage</h3><div class="label">startups</div></div>
+      <div class="sector-card" onclick="showPage('sector','Mobility & Transport')"><div class="count" style="color:#00c4ff">50</div><h3>Mobility & Transport</h3><div class="label">startups</div></div>
+      <div class="sector-card" onclick="showPage('sector','Food, Land & Carbon')"><div class="count" style="color:#7ecb35">53</div><h3>Food, Land & Carbon</h3><div class="label">startups</div></div>
+      <div class="sector-card" onclick="showPage('sector','Industry & Circular Economy')"><div class="count" style="color:#ff6b35">54</div><h3>Industry & Circular Economy</h3><div class="label">startups</div></div>
+      <div class="sector-card" onclick="showPage('sector','Built Environment & Cities')"><div class="count" style="color:#b06eff">38</div><h3>Built Environment & Cities</h3><div class="label">startups</div></div>
+      <div class="sector-card" onclick="showPage('sector','Climate Intelligence')"><div class="count" style="color:#2eff7b">18</div><h3>Climate Intelligence</h3><div class="label">startups</div></div>
     </div>
   </div>
 
   <div id="page-all" class="hidden">
     <div class="page-header">
       <h1>All Companies</h1>
-      <p>318 startups</p>
+      <p>268 startups</p>
     </div>
     <input class="search-bar" type="text" placeholder="Search companies..." oninput="filterTable(this.value)">
     <table>
@@ -155,7 +143,7 @@ tr { cursor: pointer; }
 const COMPANIES = [
   {
     "name": "Renkube",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Solar & PV",
     "founded": "2017",
     "hq": "Bengaluru, India",
@@ -173,7 +161,7 @@ const COMPANIES = [
   },
   {
     "name": "ABX3PV",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Solar & PV",
     "founded": "\u2014",
     "hq": "\u2014",
@@ -191,7 +179,7 @@ const COMPANIES = [
   },
   {
     "name": "Metafin",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Solar & PV",
     "founded": "2019",
     "hq": "Mumbai, India",
@@ -209,7 +197,7 @@ const COMPANIES = [
   },
   {
     "name": "iPanelKlean",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Solar & PV",
     "founded": "\u2014",
     "hq": "\u2014",
@@ -227,7 +215,7 @@ const COMPANIES = [
   },
   {
     "name": "TriNano",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Solar & PV",
     "founded": "2022",
     "hq": "Navi Mumbai, India",
@@ -245,7 +233,7 @@ const COMPANIES = [
   },
   {
     "name": "Prescinto",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Solar & PV",
     "founded": "2016",
     "hq": "Bangalore, India",
@@ -263,7 +251,7 @@ const COMPANIES = [
   },
   {
     "name": "SolarSquare",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Solar & PV",
     "founded": "2015",
     "hq": "Mumbai, India",
@@ -281,7 +269,7 @@ const COMPANIES = [
   },
   {
     "name": "Aerem",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Solar & PV",
     "founded": "2018",
     "hq": "Mumbai, India",
@@ -299,7 +287,7 @@ const COMPANIES = [
   },
   {
     "name": "Doorastha Analytics",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Solar & PV",
     "founded": "2016",
     "hq": "Delhi, India",
@@ -317,7 +305,7 @@ const COMPANIES = [
   },
   {
     "name": "Fourth Partner Energy",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Solar & PV",
     "founded": "2010",
     "hq": "Hyderabad, India",
@@ -335,7 +323,7 @@ const COMPANIES = [
   },
   {
     "name": "Cygni Energy",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Solar & PV",
     "founded": "2014",
     "hq": "Hyderabad, India",
@@ -353,7 +341,7 @@ const COMPANIES = [
   },
   {
     "name": "ZunRoof",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Solar & PV",
     "founded": "\u2014",
     "hq": "India",
@@ -371,7 +359,7 @@ const COMPANIES = [
   },
   {
     "name": "O2 Power",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Solar & PV",
     "founded": "2020",
     "hq": "India",
@@ -389,7 +377,7 @@ const COMPANIES = [
   },
   {
     "name": "Smartgrid Analytics",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Solar & PV",
     "founded": "2021",
     "hq": "Bengaluru, India",
@@ -407,7 +395,7 @@ const COMPANIES = [
   },
   {
     "name": "Elyasoft",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Solar & PV",
     "founded": "2012",
     "hq": "India (multiple), India",
@@ -425,7 +413,7 @@ const COMPANIES = [
   },
   {
     "name": "Oorjan Cleantech",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Solar & PV",
     "founded": "2014",
     "hq": "Mumbai, India",
@@ -443,7 +431,7 @@ const COMPANIES = [
   },
   {
     "name": "Loom Solar",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Solar & PV",
     "founded": "2018",
     "hq": "Delhi NCR, India",
@@ -461,7 +449,7 @@ const COMPANIES = [
   },
   {
     "name": "Skilancer Solar",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Solar & PV",
     "founded": "2017",
     "hq": "Noida, India",
@@ -479,7 +467,7 @@ const COMPANIES = [
   },
   {
     "name": "Solar Ladder",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Solar & PV",
     "founded": "2021",
     "hq": "Mumbai, India",
@@ -497,7 +485,7 @@ const COMPANIES = [
   },
   {
     "name": "TriNANO Technologies",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Solar & PV",
     "founded": "2020",
     "hq": "Bengaluru, India",
@@ -514,26 +502,8 @@ const COMPANIES = [
     "differentiator": "Nano-coating technology for solar panels to enhance efficiency and reduce maintenance; Tech: Solar Tech"
   },
   {
-    "name": "Illumine-I",
-    "sector": "Clean Energy",
-    "vertical": "Solar & PV",
-    "founded": "2015",
-    "hq": "Austin TX (India ops), India",
-    "founders": "Nithish Sairam, Sudarsan Krishnan",
-    "oneliner": "Digital design engineering firm for BIM, solar PV, and EVCS design solutions",
-    "tech": "Solar Design",
-    "stage": "Series A",
-    "funding": "$2.05M",
-    "investors": "Ancial Capital",
-    "revenue_model": "Design engineering services, SaaS platform subscriptions, consulting",
-    "target_market": "Global (India ops); 800+ EPCs, solar developers, renewable companies",
-    "impact": "Enables efficient solar project design and deployment across markets",
-    "website": "illumine-i.com",
-    "differentiator": "Digital design engineering firm for BIM, solar PV, and EVCS design solutions; Tech: Solar Design"
-  },
-  {
     "name": "Orb Energy",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Solar & PV",
     "founded": "2006",
     "hq": "Bengaluru, India",
@@ -551,7 +521,7 @@ const COMPANIES = [
   },
   {
     "name": "CleanMax Enviro",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Solar & PV",
     "founded": "2011",
     "hq": "Mumbai, India",
@@ -569,7 +539,7 @@ const COMPANIES = [
   },
   {
     "name": "SenseHawk",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Solar & PV",
     "founded": "2018",
     "hq": "Bengaluru, India",
@@ -587,7 +557,7 @@ const COMPANIES = [
   },
   {
     "name": "Raheja Solar",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Solar & PV",
     "founded": "2018",
     "hq": "Indore, India",
@@ -605,7 +575,7 @@ const COMPANIES = [
   },
   {
     "name": "SundayGrids",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Solar & PV",
     "founded": "2020",
     "hq": "Bengaluru, India",
@@ -623,7 +593,7 @@ const COMPANIES = [
   },
   {
     "name": "Meine Electric",
-    "sector": "Energy Storage",
+    "sector": "Clean Energy & Storage",
     "vertical": "Energy Storage",
     "founded": "2023",
     "hq": "Chennai, India",
@@ -641,7 +611,7 @@ const COMPANIES = [
   },
   {
     "name": "Emo Energy",
-    "sector": "Energy Storage",
+    "sector": "Clean Energy & Storage",
     "vertical": "Energy Storage",
     "founded": "2022",
     "hq": "Bangalore, India",
@@ -659,7 +629,7 @@ const COMPANIES = [
   },
   {
     "name": "Delectrik",
-    "sector": "Energy Storage",
+    "sector": "Clean Energy & Storage",
     "vertical": "Energy Storage",
     "founded": "2016",
     "hq": "\u2014",
@@ -677,7 +647,7 @@ const COMPANIES = [
   },
   {
     "name": "Aatral ESP",
-    "sector": "Energy Storage",
+    "sector": "Clean Energy & Storage",
     "vertical": "Energy Storage",
     "founded": "\u2014",
     "hq": "Chennai, India",
@@ -695,7 +665,7 @@ const COMPANIES = [
   },
   {
     "name": "Cancrie",
-    "sector": "Energy Storage",
+    "sector": "Clean Energy & Storage",
     "vertical": "Energy Storage",
     "founded": "2020",
     "hq": "Jaipur, India",
@@ -713,7 +683,7 @@ const COMPANIES = [
   },
   {
     "name": "OffGrid Energy Labs",
-    "sector": "Energy Storage",
+    "sector": "Clean Energy & Storage",
     "vertical": "Energy Storage",
     "founded": "2018",
     "hq": "Gurugram, India",
@@ -731,7 +701,7 @@ const COMPANIES = [
   },
   {
     "name": "Baud Resources",
-    "sector": "Energy Storage",
+    "sector": "Clean Energy & Storage",
     "vertical": "Energy Storage",
     "founded": "2017",
     "hq": "Gurugram, India",
@@ -749,7 +719,7 @@ const COMPANIES = [
   },
   {
     "name": "Log9 Materials",
-    "sector": "Energy Storage",
+    "sector": "Clean Energy & Storage",
     "vertical": "Energy Storage",
     "founded": "2015",
     "hq": "Bengaluru, India",
@@ -767,7 +737,7 @@ const COMPANIES = [
   },
   {
     "name": "QpiVolta Technologies",
-    "sector": "Energy Storage",
+    "sector": "Clean Energy & Storage",
     "vertical": "Energy Storage",
     "founded": "2019",
     "hq": "Bengaluru, India",
@@ -785,7 +755,7 @@ const COMPANIES = [
   },
   {
     "name": "Sheru",
-    "sector": "Energy Storage",
+    "sector": "Clean Energy & Storage",
     "vertical": "Energy Storage",
     "founded": "2019",
     "hq": "Delhi, India",
@@ -803,7 +773,7 @@ const COMPANIES = [
   },
   {
     "name": "Exponent Energy",
-    "sector": "Energy Storage",
+    "sector": "Clean Energy & Storage",
     "vertical": "Energy Storage",
     "founded": "2020",
     "hq": "Bengaluru, India",
@@ -821,7 +791,7 @@ const COMPANIES = [
   },
   {
     "name": "BatterySmart",
-    "sector": "Energy Storage",
+    "sector": "Clean Energy & Storage",
     "vertical": "Energy Storage",
     "founded": "2019",
     "hq": "India",
@@ -838,26 +808,8 @@ const COMPANIES = [
     "differentiator": "India's largest battery swapping network for 2W/3W; 1,000+ swap stations"
   },
   {
-    "name": "Ace Green Recycling",
-    "sector": "Energy Storage",
-    "vertical": "Energy Storage",
-    "founded": "2019",
-    "hq": "Singapore/India",
-    "founders": "Nishchay Chadha",
-    "oneliner": "Modular emissions-free lithium-ion and lead battery recycling",
-    "tech": "Battery recycling, hydrometallurgy",
-    "stage": "Series A",
-    "funding": "$7M+",
-    "investors": "Tenacity Venture, DOEN Foundation",
-    "revenue_model": "B2B recycling services",
-    "target_market": "Global",
-    "impact": "Zero-emission battery recycling; recovers critical minerals",
-    "website": "acegreenrecycling.com",
-    "differentiator": "Modular emissions-free lithium-ion and lead battery recycling; Funding: $7M+; backed by Tenacity Venture, DOEN Foundation"
-  },
-  {
     "name": "Gegadyne Energy",
-    "sector": "Energy Storage",
+    "sector": "Clean Energy & Storage",
     "vertical": "Energy Storage",
     "founded": "2015",
     "hq": "Mumbai",
@@ -875,7 +827,7 @@ const COMPANIES = [
   },
   {
     "name": "ION Energy",
-    "sector": "Energy Storage",
+    "sector": "Clean Energy & Storage",
     "vertical": "Energy Storage",
     "founded": "2016",
     "hq": "Mumbai, India",
@@ -893,7 +845,7 @@ const COMPANIES = [
   },
   {
     "name": "BatX Energies",
-    "sector": "Energy Storage",
+    "sector": "Clean Energy & Storage",
     "vertical": "Energy Storage",
     "founded": "2020",
     "hq": "Gurugram, India",
@@ -911,7 +863,7 @@ const COMPANIES = [
   },
   {
     "name": "Lohum",
-    "sector": "Energy Storage",
+    "sector": "Clean Energy & Storage",
     "vertical": "Energy Storage",
     "founded": "2017",
     "hq": "Delhi NCR, India",
@@ -929,7 +881,7 @@ const COMPANIES = [
   },
   {
     "name": "Metastable Materials",
-    "sector": "Energy Storage",
+    "sector": "Clean Energy & Storage",
     "vertical": "Energy Storage",
     "founded": "2021",
     "hq": "Bengaluru, India",
@@ -947,7 +899,7 @@ const COMPANIES = [
   },
   {
     "name": "Offgrid Energy",
-    "sector": "Energy Storage",
+    "sector": "Clean Energy & Storage",
     "vertical": "Energy Storage",
     "founded": "2018",
     "hq": "Kanpur, India",
@@ -965,7 +917,7 @@ const COMPANIES = [
   },
   {
     "name": "Voltanova",
-    "sector": "Energy Storage",
+    "sector": "Clean Energy & Storage",
     "vertical": "Energy Storage",
     "founded": "2024",
     "hq": "Bengaluru, India",
@@ -1232,24 +1184,6 @@ const COMPANIES = [
     "impact": "Removes rare-earth supply chain risk from EVs",
     "website": "charatech.com",
     "differentiator": "Rare-earth-free synchronous reluctance motors for EVs with 20% cost advantage; Funding: $6.2M; backed by Arkam Ventures, Kalaari Capital"
-  },
-  {
-    "name": "Sirinor",
-    "sector": "Mobility & Transport",
-    "vertical": "EV & Mobility",
-    "founded": "2022",
-    "hq": "Stavanger / Pune",
-    "founders": "Ivar Aune, Abhijeet Inamdar",
-    "oneliner": "World's first all-electric jet engines for zero-emission aviation",
-    "tech": "Electric jet propulsion",
-    "stage": "Series A",
-    "funding": "$20M+",
-    "investors": "Shell E4, DCM Shriram",
-    "revenue_model": "Engine licensing & manufacturing",
-    "target_market": "Aircraft, UAVs, eVTOL vehicles",
-    "impact": "Zero-emission aviation propulsion",
-    "website": "sirinor.com",
-    "differentiator": "World's first all-electric jet engines for zero-emission aviation; Funding: $20M+; backed by Shell E4, DCM Shriram"
   },
   {
     "name": "Dreamfly",
@@ -1828,60 +1762,6 @@ const COMPANIES = [
     "differentiator": "IT/web/app platform tracking EVs & drivers; IoT for fleet management; backed by Yamaha Motors (MBSI)"
   },
   {
-    "name": "Monta",
-    "sector": "Mobility & Transport",
-    "vertical": "EV & Mobility",
-    "founded": "\u2014",
-    "hq": "Copenhagen, Denmark",
-    "founders": "Casper Rasmussen",
-    "oneliner": "EV charging software platform for CPOs, fleets, businesses across Europe",
-    "tech": "EV charging software platform for CPOs, fleets, businesses across Europe",
-    "stage": "Series B",
-    "funding": "\u20ac75M total",
-    "investors": "Pale Blue Dot, EIF, EIFO",
-    "revenue_model": "Cloud-based EV charging management software (CPMS) with subscriptions, roaming agreements, and transaction fees for charge point operators and fleet managers",
-    "target_market": "Commercial EV charging operators, fleet managers, residential and workplace charging networks across Europe and North America",
-    "impact": "Manages 2M+ monthly EV charging sessions across 190,000 charge points, accelerating the transition from fossil fuels to electric vehicle infrastructure",
-    "website": "monta.com",
-    "differentiator": "One platform for all EV charging stakeholders; 100,000+ charge points managed"
-  },
-  {
-    "name": "Pod Point (EDF)",
-    "sector": "Mobility & Transport",
-    "vertical": "EV & Mobility",
-    "founded": "\u2014",
-    "hq": "London, UK",
-    "founders": "Erik Fairbairn",
-    "oneliner": "Home, workplace & public EV charging; acquired by EDF Energy",
-    "tech": "Home, workplace & public EV charging",
-    "stage": "Acquired / Scale",
-    "funding": "Acquired by EDF",
-    "investors": "EDF Energy (parent)",
-    "revenue_model": "Operates public/private EV charging network generating revenue from charging fees, subscription services, and energy tariffs; offers branded solutions to enterprises",
-    "target_market": "Private EV owners, fleet operators, commercial businesses, and workplaces across the UK and Norway",
-    "impact": "Manages third-largest UK public charging network with 62,000 charging points, facilitating rapid EV adoption and reducing transport emissions",
-    "website": "pod-point.com",
-    "differentiator": "Acquired by EDF; UK's largest home charging provider"
-  },
-  {
-    "name": "Virta",
-    "sector": "Mobility & Transport",
-    "vertical": "EV & Mobility",
-    "founded": "\u2014",
-    "hq": "Helsinki, Finland",
-    "founders": "Kemppinen",
-    "oneliner": "EV charging management platform; white-label CPO software for utilities",
-    "tech": "EV charging management platform",
-    "stage": "Series B",
-    "funding": "\u20ac80M+ total",
-    "investors": "Helen (Finnish utility), strategic",
-    "revenue_model": "Cloud-based EV charging platform software via licensing, roaming arrangements, and energy management services for charge point operators",
-    "target_market": "Professional charge point operators, e-mobility service providers, and utilities across 36 countries in Europe and Southeast Asia",
-    "impact": "Supports 450+ charger models; develops Vehicle-to-Grid (V2G) technology and virtual power plants for grid integration and renewable energy optimization",
-    "website": "virta.global",
-    "differentiator": "Europe's largest independent charging platform; 40,000+ charge points; 100+ countries"
-  },
-  {
     "name": "Naxatra Labs",
     "sector": "Mobility & Transport",
     "vertical": "EV & Mobility",
@@ -1955,7 +1835,7 @@ const COMPANIES = [
   },
   {
     "name": "NewTrace",
-    "sector": "Green Hydrogen",
+    "sector": "Clean Energy & Storage",
     "vertical": "Green Hydrogen",
     "founded": "2021",
     "hq": "Bengaluru, India",
@@ -1973,7 +1853,7 @@ const COMPANIES = [
   },
   {
     "name": "H2 Carbon Zero",
-    "sector": "Green Hydrogen",
+    "sector": "Clean Energy & Storage",
     "vertical": "Green Hydrogen",
     "founded": "2022",
     "hq": "New Delhi, India",
@@ -1991,7 +1871,7 @@ const COMPANIES = [
   },
   {
     "name": "Ossus Biorenewables",
-    "sector": "Green Hydrogen",
+    "sector": "Clean Energy & Storage",
     "vertical": "Green Hydrogen",
     "founded": "2017",
     "hq": "Mumbai, India",
@@ -2008,26 +1888,8 @@ const COMPANIES = [
     "differentiator": "AI-powered bioreactors producing green hydrogen from industrial effluents; Funding: $3.58M; backed by Gruhas, Rainmatter Climate"
   },
   {
-    "name": "HYDGEN",
-    "sector": "Green Hydrogen",
-    "vertical": "Green Hydrogen",
-    "founded": "\u2014",
-    "hq": "Bengaluru / Singapore",
-    "founders": "Manipaddy Krishna Kumar, Michael Gryseels",
-    "oneliner": "Green hydrogen production using modular AEM electrolyzer technology",
-    "tech": "AEM electrolyzer, modular H2 production",
-    "stage": "Pre-Series A",
-    "funding": "$6.49M",
-    "investors": "Transition VC, Cloudberry, Moringa Ventures",
-    "revenue_model": "Electrolyzer sales, on-site H2 services",
-    "target_market": "Industrial, refineries, ammonia producers",
-    "impact": "Cost-efficient green hydrogen production",
-    "website": "hydgen.co",
-    "differentiator": "Green hydrogen production using modular AEM electrolyzer technology; Funding: $6.49M; backed by Transition VC, Cloudberry"
-  },
-  {
     "name": "Hygenco",
-    "sector": "Green Hydrogen",
+    "sector": "Clean Energy & Storage",
     "vertical": "Green Hydrogen",
     "founded": "2020",
     "hq": "Gurugram, India",
@@ -2045,7 +1907,7 @@ const COMPANIES = [
   },
   {
     "name": "Ohmium",
-    "sector": "Green Hydrogen",
+    "sector": "Clean Energy & Storage",
     "vertical": "Green Hydrogen",
     "founded": "\u2014",
     "hq": "Bengaluru (Gigafactory)",
@@ -2063,7 +1925,7 @@ const COMPANIES = [
   },
   {
     "name": "h2e Power Systems",
-    "sector": "Green Hydrogen",
+    "sector": "Clean Energy & Storage",
     "vertical": "Green Hydrogen",
     "founded": "2011",
     "hq": "Pune, India",
@@ -2080,98 +1942,8 @@ const COMPANIES = [
     "differentiator": "SOFC/SOEC fuel cell and electrolyser manufacturer for green hydrogen production; Funding: $200K; backed by Poonawalla Group"
   },
   {
-    "name": "H2X Global",
-    "sector": "Green Hydrogen",
-    "vertical": "Green Hydrogen",
-    "founded": "\u2014",
-    "hq": "Australia / India",
-    "founders": "Brendan Norman",
-    "oneliner": "Hydrogen-powered commercial vehicles + electrolyser integration",
-    "tech": "Hydrogen-powered commercial vehicles + electrolyser integration",
-    "stage": "Growth",
-    "funding": "$20M+ est.",
-    "investors": "Strategic investors",
-    "revenue_model": "Manufactures and sells hydrogen fuel cell vehicles and systems; operates joint ventures in target markets for manufacturing and distribution",
-    "target_market": "Commercial logistics and transport (taxis, LCVs, buses, SUVs) in Australia, Malaysia, India, and Europe",
-    "impact": "Produces zero-emission hydrogen fuel cell vehicles with 750+ km range; partners in India through Advik H2X JV for hydrogen mobility",
-    "website": "h2xglobal.com",
-    "differentiator": "Hydrogen-powered vehicles & electrolyser integration; India manufacturing planned"
-  },
-  {
-    "name": "Solugen",
-    "sector": "Green Hydrogen",
-    "vertical": "Green Hydrogen",
-    "founded": "\u2014",
-    "hq": "Houston, TX",
-    "founders": "Gaurab Chakrabarti",
-    "oneliner": "Enzymatic bioforge platform replacing petrochemical synthesis with bio-based chemicals",
-    "tech": "Enzymatic bioforge platform replacing petrochemical synthesis with bio-based chemicals",
-    "stage": "Growth / Pre-IPO",
-    "funding": "$440M+ total",
-    "investors": "Lowercarbon, GV, Temasek, Refinery Ventures",
-    "revenue_model": "Manufactures and sells bio-based industrial chemicals using proprietary enzyme and plant-based feedstock technology; product sales and licensing",
-    "target_market": "Oil & gas, water treatment, industrial cleaning, food and agriculture sectors requiring sustainable industrial chemicals",
-    "impact": "Operates carbon-negative green chemistry manufacturing using evolved enzymes and plant feedstocks, producing chemicals without emissions or waste",
-    "website": "solugen.com",
-    "differentiator": "Carbon-negative chemicals at fossil fuel prices; $440M raised; 30+ Fortune 500 clients"
-  },
-  {
-    "name": "Boston Metal",
-    "sector": "Green Hydrogen",
-    "vertical": "Green Hydrogen",
-    "founded": "\u2014",
-    "hq": "Woburn, MA",
-    "founders": "Tadeu Carneiro",
-    "oneliner": "Molten Oxide Electrolysis (MOE) for zero-emission green steel from iron ore",
-    "tech": "Molten Oxide Electrolysis (MOE) for zero-emission green steel from iron ore",
-    "stage": "Series C",
-    "funding": "$262M total",
-    "investors": "Energy Impact Partners, Breakthrough Energy",
-    "revenue_model": "Manufactures green steel using molten oxide electrolysis (MOE) technology; revenue through steel sales and licensing of manufacturing technology",
-    "target_market": "Global steel/metals industry including construction, automotive, and industrial manufacturing seeking carbon-free metal production",
-    "impact": "Uses electricity instead of fossil fuels for iron production, emitting oxygen rather than CO2; demonstrated industrial-scale green steel production",
-    "website": "bostonmetal.com",
-    "differentiator": "Founded out of MIT; only process that makes steel without CO2; Peugeot partner"
-  },
-  {
-    "name": "Electric Hydrogen",
-    "sector": "Green Hydrogen",
-    "vertical": "Green Hydrogen",
-    "founded": "\u2014",
-    "hq": "Natick, MA",
-    "founders": "David Eaglesham",
-    "oneliner": "PEM electrolyser manufacturing for green hydrogen; utility-scale systems",
-    "tech": "PEM electrolyser manufacturing for green hydrogen",
-    "stage": "Series C",
-    "funding": "$380M+ total",
-    "investors": "Breakthrough Energy, Capricorn, NEA",
-    "revenue_model": "Manufactures and sells high-powered PEM electrolyzers for green hydrogen production; equipment sales and system integration services",
-    "target_market": "Fertilizer, ammonia, steel, chemicals, and energy production industries requiring clean hydrogen fuel",
-    "impact": "100 MW PEM electrolyzer plants enable lowest-cost green hydrogen production; gigafactory capacity to double today's global installed electrolysis",
-    "website": "electric-hydrogen.com",
-    "differentiator": "100MW/yr electrolyser factory; $380M raised; cheapest green H2 target"
-  },
-  {
-    "name": "Fortescue Zero",
-    "sector": "Green Hydrogen",
-    "vertical": "Green Hydrogen",
-    "founded": "\u2014",
-    "hq": "Perth, Australia",
-    "founders": "CEO",
-    "oneliner": "Green hydrogen production, electrolysers, and green ammonia for shipping/steel",
-    "tech": "Green hydrogen production, electrolysers, and green ammonia for shipping/steel",
-    "stage": "Corporate / Growth",
-    "funding": "$6B+ committed",
-    "investors": "Fortescue (parent)",
-    "revenue_model": "Develops and sells zero-emission mining equipment, battery-electric vehicles, hydrogen systems; technology sales and licensing to mining operators",
-    "target_market": "Mining companies and heavy industry sectors seeking to eliminate fossil fuel dependence in operations",
-    "impact": "Commercializes battery-electric mining trucks and Infinity Train; eliminates 82M liters diesel consumption annually, reducing 235,200 tonnes CO2",
-    "website": "fortescuezero.com",
-    "differentiator": "Backed by Fortescue (Andrew Forrest); massive capital commitment to green H2 at scale"
-  },
-  {
     "name": "UrjanovaC",
-    "sector": "Carbon & Capture",
+    "sector": "Food, Land & Carbon",
     "vertical": "Carbon Capture",
     "founded": "2023",
     "hq": "Mumbai, India",
@@ -2189,7 +1961,7 @@ const COMPANIES = [
   },
   {
     "name": "280 Carbon",
-    "sector": "Carbon & Capture",
+    "sector": "Food, Land & Carbon",
     "vertical": "Carbon Capture",
     "founded": "\u2014",
     "hq": "\u2014",
@@ -2207,7 +1979,7 @@ const COMPANIES = [
   },
   {
     "name": "CarbSorb",
-    "sector": "Carbon & Capture",
+    "sector": "Food, Land & Carbon",
     "vertical": "Carbon Capture",
     "founded": "\u2014",
     "hq": "\u2014",
@@ -2225,7 +1997,7 @@ const COMPANIES = [
   },
   {
     "name": "Caliche",
-    "sector": "Carbon & Capture",
+    "sector": "Food, Land & Carbon",
     "vertical": "Carbon Capture",
     "founded": "2018",
     "hq": "\u2014",
@@ -2243,7 +2015,7 @@ const COMPANIES = [
   },
   {
     "name": "Pi Green",
-    "sector": "Carbon & Capture",
+    "sector": "Food, Land & Carbon",
     "vertical": "Carbon Capture",
     "founded": "2019",
     "hq": "Pune, India",
@@ -2261,7 +2033,7 @@ const COMPANIES = [
   },
   {
     "name": "PyroCCS",
-    "sector": "Carbon & Capture",
+    "sector": "Food, Land & Carbon",
     "vertical": "Carbon Capture",
     "founded": "2023",
     "hq": "New Delhi, India",
@@ -2279,7 +2051,7 @@ const COMPANIES = [
   },
   {
     "name": "Equilibrium",
-    "sector": "Carbon & Capture",
+    "sector": "Food, Land & Carbon",
     "vertical": "Carbon Capture",
     "founded": "2024",
     "hq": "Bengaluru, India",
@@ -2297,7 +2069,7 @@ const COMPANIES = [
   },
   {
     "name": "Climes",
-    "sector": "Carbon & Capture",
+    "sector": "Food, Land & Carbon",
     "vertical": "Carbon Capture",
     "founded": "2021",
     "hq": "Delhi, India",
@@ -2315,7 +2087,7 @@ const COMPANIES = [
   },
   {
     "name": "Alt Carbon",
-    "sector": "Carbon & Capture",
+    "sector": "Food, Land & Carbon",
     "vertical": "Carbon Capture",
     "founded": "2023",
     "hq": "Darjeeling, India",
@@ -2333,7 +2105,7 @@ const COMPANIES = [
   },
   {
     "name": "TraceXero",
-    "sector": "Carbon & Capture",
+    "sector": "Food, Land & Carbon",
     "vertical": "Carbon Capture",
     "founded": "\u2014",
     "hq": "Rajasthan, India",
@@ -2351,7 +2123,7 @@ const COMPANIES = [
   },
   {
     "name": "Carbelim",
-    "sector": "Carbon & Capture",
+    "sector": "Food, Land & Carbon",
     "vertical": "Carbon Capture",
     "founded": "2021",
     "hq": "Coimbatore",
@@ -2369,7 +2141,7 @@ const COMPANIES = [
   },
   {
     "name": "Novoclime",
-    "sector": "Carbon & Capture",
+    "sector": "Food, Land & Carbon",
     "vertical": "Carbon Capture",
     "founded": "2022",
     "hq": "Delhi",
@@ -2386,26 +2158,8 @@ const COMPANIES = [
     "differentiator": "India's first DAC company using hybrid sorbent approach for ambient CO\u2082 capture; Funding: Seeking $5M"
   },
   {
-    "name": "Carbonclean",
-    "sector": "Carbon & Capture",
-    "vertical": "Carbon Capture",
-    "founded": "\u2014",
-    "hq": "London / India",
-    "founders": "Aniruddha Sharma",
-    "oneliner": "CCUS (carbon capture, utilisation, storage); modular capture skids for industry",
-    "tech": "CCUS (carbon capture, utilisation, storage)",
-    "stage": "Growth",
-    "funding": "$150M+ total",
-    "investors": "Chevron, Samsung, CEMEX, Equinor",
-    "revenue_model": "Licenses proprietary carbon capture technology and sells modular capture systems; technology licensing, equipment sales, and service contracts",
-    "target_market": "Small-to-midsize industrial emitters in power, cement, refineries producing 3-25% CO2 concentrations",
-    "impact": "CycloneCC technology captures CO2 at 10x smaller footprint than conventional systems at $30/tonne; cumulatively captured 2.8M tonnes CO2",
-    "website": "carbonclean.com",
-    "differentiator": "70% lower CAPEX for point-source capture; deployed in India, Japan, US"
-  },
-  {
     "name": "Carbon Masters",
-    "sector": "Carbon & Capture",
+    "sector": "Food, Land & Carbon",
     "vertical": "Carbon Capture",
     "founded": "\u2014",
     "hq": "Bengaluru, India",
@@ -2422,62 +2176,8 @@ const COMPANIES = [
     "differentiator": "Biogas from MSW + food waste; 14 operational plants; CBG production"
   },
   {
-    "name": "Mission Zero",
-    "sector": "Carbon & Capture",
-    "vertical": "Carbon Capture",
-    "founded": "\u2014",
-    "hq": "Cambridge, UK",
-    "founders": "Nicholas Sheridan",
-    "oneliner": "Electrochemical Direct Air Capture (DAC); modular, low-energy CO2 removal",
-    "tech": "Electrochemical Direct Air Capture (DAC)",
-    "stage": "Series A",
-    "funding": "$20M+ total",
-    "investors": "Breakthrough Energy, Lowercarbon",
-    "revenue_model": "Develops and operates direct air capture (DAC) plants extracting CO2 from air; revenue through carbon credits and CO2 sales",
-    "target_market": "Industries and enterprises seeking permanent carbon removal and organizations purchasing verified carbon removal credits",
-    "impact": "DAC technology with 75% lower costs and energy than commercial alternatives; converts captured CO2 into limestone and building aggregates",
-    "website": "missionzero.tech",
-    "differentiator": "DAC at room temperature; modular design; potentially 10x cheaper than competitors"
-  },
-  {
-    "name": "Ebb Carbon",
-    "sector": "Carbon & Capture",
-    "vertical": "Carbon Capture",
-    "founded": "\u2014",
-    "hq": "San Francisco, CA",
-    "founders": "Ben Tarbell",
-    "oneliner": "Ocean alkalinity enhancement (OAE) for carbon removal at scale",
-    "tech": "Ocean alkalinity enhancement (OAE) for carbon removal at scale",
-    "stage": "Series A",
-    "funding": "$25M+ total",
-    "investors": "Prelude, Lowercarbon, Stripe",
-    "revenue_model": "Provides ocean alkalinity enhancement (OAE) services for permanent CO2 removal; carbon removal contracts with enterprises",
-    "target_market": "Corporations and enterprises purchasing verified carbon removal credits (partnerships with Google, Microsoft)",
-    "impact": "Uses electrochemical water technology at desalination plants to enhance ocean alkalinity, enabling permanent atmospheric CO2 removal at scale",
-    "website": "ebbcarbon.com",
-    "differentiator": "Ocean CDR via OAE; restores ocean alkalinity while removing CO2; pre-purchase from Stripe"
-  },
-  {
-    "name": "Twelve",
-    "sector": "Carbon & Capture",
-    "vertical": "Carbon Capture",
-    "founded": "\u2014",
-    "hq": "Berkeley, CA",
-    "founders": "Nicholas Flanders",
-    "oneliner": "CO2-to-chemical electrochemical platform; e-methane, e-kerosene, polypropylene",
-    "tech": "CO2-to-chemical electrochemical platform",
-    "stage": "Series B-C",
-    "funding": "$645M total",
-    "investors": "DCVC, Capricorn, Amazon, USAF",
-    "revenue_model": "Manufactures sustainable aviation fuel (SAF) and electrochemicals from CO2 using proprietary electrochemical technology; fuel and chemical product sales",
-    "target_market": "Aviation industry, chemical manufacturers, and enterprises requiring sustainable alternatives to fossil-derived fuels and chemicals",
-    "impact": "AirPlant One converts CO2, water, and renewable electricity into E-Jet SAF achieving up to 90% lower lifecycle emissions than conventional jet fuel",
-    "website": "twelve.co",
-    "differentiator": "Only CO2-to-chemicals at commercial scale; United Airlines partnership; USAF contract"
-  },
-  {
     "name": "Mitti Labs",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2023",
     "hq": "Bengaluru / NYC",
@@ -2495,7 +2195,7 @@ const COMPANIES = [
   },
   {
     "name": "Cultyvate",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2016",
     "hq": "Bengaluru, India",
@@ -2513,7 +2213,7 @@ const COMPANIES = [
   },
   {
     "name": "PhyFarm",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2017",
     "hq": "Mumbai, India",
@@ -2531,7 +2231,7 @@ const COMPANIES = [
   },
   {
     "name": "GreenPod Labs",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2019",
     "hq": "Chennai, India",
@@ -2549,7 +2249,7 @@ const COMPANIES = [
   },
   {
     "name": "Oorja",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2016",
     "hq": "New Delhi, India",
@@ -2567,7 +2267,7 @@ const COMPANIES = [
   },
   {
     "name": "HydroGreens",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2019",
     "hq": "Bengaluru, India",
@@ -2585,7 +2285,7 @@ const COMPANIES = [
   },
   {
     "name": "Farmology",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2018",
     "hq": "Howrah, India",
@@ -2603,7 +2303,7 @@ const COMPANIES = [
   },
   {
     "name": "Ecozen",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2010",
     "hq": "Pune, India",
@@ -2621,7 +2321,7 @@ const COMPANIES = [
   },
   {
     "name": "IUVA",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "\u2014",
     "hq": "\u2014",
@@ -2639,7 +2339,7 @@ const COMPANIES = [
   },
   {
     "name": "Pixxel",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2019",
     "hq": "Bengaluru, India",
@@ -2657,7 +2357,7 @@ const COMPANIES = [
   },
   {
     "name": "Niqo Robotics",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2015",
     "hq": "Bengaluru, India",
@@ -2675,7 +2375,7 @@ const COMPANIES = [
   },
   {
     "name": "Eeki Foods",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2018",
     "hq": "Kota, Rajasthan",
@@ -2693,7 +2393,7 @@ const COMPANIES = [
   },
   {
     "name": "KisanKonnect",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2019",
     "hq": "India",
@@ -2711,7 +2411,7 @@ const COMPANIES = [
   },
   {
     "name": "String Bio",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2013",
     "hq": "Bengaluru, India",
@@ -2729,7 +2429,7 @@ const COMPANIES = [
   },
   {
     "name": "DeHaat",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2012",
     "hq": "Patna, Bihar, India",
@@ -2747,7 +2447,7 @@ const COMPANIES = [
   },
   {
     "name": "Stellapps",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2011",
     "hq": "Bengaluru, India",
@@ -2765,7 +2465,7 @@ const COMPANIES = [
   },
   {
     "name": "Akshayakalpa",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2010",
     "hq": "Bengaluru, India",
@@ -2783,7 +2483,7 @@ const COMPANIES = [
   },
   {
     "name": "BigHaat",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2015",
     "hq": "Bengaluru, India",
@@ -2801,7 +2501,7 @@ const COMPANIES = [
   },
   {
     "name": "AgroStar",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2013",
     "hq": "Pune, India",
@@ -2819,7 +2519,7 @@ const COMPANIES = [
   },
   {
     "name": "Mooofarm",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2019",
     "hq": "Gurugram, India",
@@ -2837,7 +2537,7 @@ const COMPANIES = [
   },
   {
     "name": "INI Farms",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2009",
     "hq": "Mumbai, India",
@@ -2855,7 +2555,7 @@ const COMPANIES = [
   },
   {
     "name": "Fasal",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2018",
     "hq": "Bengaluru, India",
@@ -2873,7 +2573,7 @@ const COMPANIES = [
   },
   {
     "name": "BharatAgri",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2017",
     "hq": "Pune, India",
@@ -2891,7 +2591,7 @@ const COMPANIES = [
   },
   {
     "name": "AquaConnect",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2016",
     "hq": "Chennai, India",
@@ -2909,7 +2609,7 @@ const COMPANIES = [
   },
   {
     "name": "Insectta Biotech",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2020",
     "hq": "Delhi, India",
@@ -2927,7 +2627,7 @@ const COMPANIES = [
   },
   {
     "name": "Inficold",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2015",
     "hq": "Delhi NCR, India",
@@ -2945,7 +2645,7 @@ const COMPANIES = [
   },
   {
     "name": "SeaLi Energy",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2013",
     "hq": "Bengaluru, India",
@@ -2963,7 +2663,7 @@ const COMPANIES = [
   },
   {
     "name": "Clover",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "\u2014",
     "hq": "Mumbai, India",
@@ -2981,7 +2681,7 @@ const COMPANIES = [
   },
   {
     "name": "Intello Labs",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "\u2014",
     "hq": "Gurugram, India",
@@ -2999,7 +2699,7 @@ const COMPANIES = [
   },
   {
     "name": "Farmley",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "\u2014",
     "hq": "Delhi, India",
@@ -3017,7 +2717,7 @@ const COMPANIES = [
   },
   {
     "name": "Cropin",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "\u2014",
     "hq": "Bengaluru, India",
@@ -3035,7 +2735,7 @@ const COMPANIES = [
   },
   {
     "name": "AgNext",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "\u2014",
     "hq": "Mohali, India",
@@ -3053,7 +2753,7 @@ const COMPANIES = [
   },
   {
     "name": "Ergos",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "\u2014",
     "hq": "Bengaluru, India",
@@ -3070,134 +2770,8 @@ const COMPANIES = [
     "differentiator": "150,000+ farmers using grain storage; 500+ micro-warehouses; Cargill partnership"
   },
   {
-    "name": "AgriCapture",
-    "sector": "Agriculture & Food",
-    "vertical": "Agri & Food",
-    "founded": "\u2014",
-    "hq": "US / India",
-    "founders": "CEO",
-    "oneliner": "Carbon farming - soil carbon measurement, credits & market for farmers",
-    "tech": "Carbon farming - soil carbon measurement, credits & market for farmers",
-    "stage": "Series A",
-    "funding": "$10M+ est.",
-    "investors": "Breakthrough Energy fellows",
-    "revenue_model": "Carbon credit generation and verification through regenerative agriculture practices; helps farmers access carbon markets and premium sustainability markets",
-    "target_market": "Rice and grassland farmers in California (150,000+ acres certified); buyers of verified carbon credits",
-    "impact": "Supports carbon sequestration in soil through Alternate Wetting & Drying rice practices and grassland management",
-    "website": "agricapture.com",
-    "differentiator": "MRV platform for soil carbon credits; Indigo Ag-adjacent; India pilot in progress"
-  },
-  {
-    "name": "Pivot Bio",
-    "sector": "Agriculture & Food",
-    "vertical": "Agri & Food",
-    "founded": "\u2014",
-    "hq": "Berkeley, CA",
-    "founders": "Karsten Temme",
-    "oneliner": "Microbial nitrogen-fixing products replacing synthetic fertiliser for corn, wheat",
-    "tech": "Microbial nitrogen-fixing products replacing synthetic fertiliser for corn, wheat",
-    "stage": "Series D",
-    "funding": "$600M+ total",
-    "investors": "DCVC, Breakthrough Energy",
-    "revenue_model": "Sells microbial nitrogen products as liquid spray or seed coating that replace synthetic fertilizer, reducing input costs for farmers",
-    "target_market": "Corn, wheat, barley, and oats farmers across millions of acres in the US; agricultural input distributors and cooperatives",
-    "impact": "Reduces synthetic fertilizer use, eliminating hundreds of thousands of tons of CO2e annually; microbes deliver nitrogen directly reducing chemical runoff",
-    "website": "pivotbio.com",
-    "differentiator": "Proven 20% yield benefit from microbial N-fixation; 5M+ acres deployed"
-  },
-  {
-    "name": "Ginkgo Bioworks",
-    "sector": "Agriculture & Food",
-    "vertical": "Agri & Food",
-    "founded": "\u2014",
-    "hq": "Boston, US",
-    "founders": "Jason Kelly",
-    "oneliner": "Organism engineering platform (cell programming); biofertilisers, biopesticides, chemicals",
-    "tech": "Organism engineering platform (cell programming)",
-    "stage": "NYSE listed",
-    "funding": "$1.68+ raised",
-    "investors": "Public markets; Bain Capital",
-    "revenue_model": "Synthetic biology platform licensing organism designs; revenue through R&D contracts, IP licensing, and product development partnerships",
-    "target_market": "Biotech, pharmaceutical, cosmetics, agricultural biotech, and industrial biotech companies across multiple sectors",
-    "impact": "Replaces synthetic chemical processes with engineered biology, reducing environmental footprint of industrial chemistry and enabling sustainable production",
-    "website": "ginkgobioworks.com",
-    "differentiator": "Platform model licensing; 50+ programmes across Ag, Pharma, Industrial Bio"
-  },
-  {
-    "name": "Better Meat Co.",
-    "sector": "Agriculture & Food",
-    "vertical": "Agri & Food",
-    "founded": "\u2014",
-    "hq": "Sacramento, CA",
-    "founders": "Paul Shapiro",
-    "oneliner": "Mycoprotein (fungi) ingredients for conventional meat blending - B2B ingredient play",
-    "tech": "Mycoprotein (fungi) ingredients for conventional meat blending - B2B ingredient play",
-    "stage": "Series B",
-    "funding": "$30M+ total",
-    "investors": "Prelude, Fifty Years",
-    "revenue_model": "Sells Rhiza mycoprotein ingredient to food manufacturers for blended or fully animal-free meat products; achieved cost parity with commodity beef",
-    "target_market": "Food manufacturers seeking sustainable meat alternatives; meat-analog brands transitioning away from animal products",
-    "impact": "Produces protein faster (hours vs. months) than animal agriculture using fermentation, significantly reducing land, water, and emissions footprint",
-    "website": "bettermeat.co",
-    "differentiator": "B2B ingredient model avoids consumer alt-protein headwinds; Hormel partnership"
-  },
-  {
-    "name": "Enterra Feed",
-    "sector": "Agriculture & Food",
-    "vertical": "Agri & Food",
-    "founded": "\u2014",
-    "hq": "Vancouver, Canada",
-    "founders": "Darren Goldin",
-    "oneliner": "Black Soldier Fly insect protein processing for aquaculture & pet food markets",
-    "tech": "Black Soldier Fly insect protein processing for aquaculture & pet food markets",
-    "stage": "Growth",
-    "funding": "$30M+ total",
-    "investors": "Gordon & Betty Moore Foundation",
-    "revenue_model": "Converts pre-consumer food waste into insect-based animal feed and fertilizer; sells BSF larvae products as aquaculture, poultry, and pet feed replacements",
-    "target_market": "Aquaculture (salmon, trout), poultry producers, pet food manufacturers seeking sustainable fishmeal and palm oil alternatives",
-    "impact": "Diverts food waste from landfills while producing protein; replaces unsustainable fishmeal, reducing pressure on wild fish stocks and rainforests",
-    "website": "enterrafeed.com",
-    "differentiator": "North America's largest BSF facility; 30M tonnes/yr capacity"
-  },
-  {
-    "name": "Mewery",
-    "sector": "Agriculture & Food",
-    "vertical": "Agri & Food",
-    "founded": "\u2014",
-    "hq": "Prague, Czech Republic",
-    "founders": "Roman Lauber",
-    "oneliner": "Cultivated pork meat using microalgae as growth media - cost-reducing innovation",
-    "tech": "Cultivated pork meat using microalgae as growth media - cost-reducing innovation",
-    "stage": "Seed-Series A",
-    "funding": "$5M+ est.",
-    "investors": "EIT Food, European VCs",
-    "revenue_model": "Develops cultivated pork using proprietary microalgae-based culture medium; plans to commercialize products pending regulatory approval",
-    "target_market": "European consumers and food manufacturers seeking cultured meat alternatives; pending Czech and EU market approval",
-    "impact": "Uses hybrid microalgae culture eliminating Fetal Bovine Serum; cultured meat uses 95% less land and water than conventional pork",
-    "website": "mewery.com",
-    "differentiator": "Algae media slashes cultivated meat cost; first CE certification targeting"
-  },
-  {
-    "name": "Solar Foods",
-    "sector": "Agriculture & Food",
-    "vertical": "Agri & Food",
-    "founded": "\u2014",
-    "hq": "Finland / EU",
-    "founders": "Pasi Vainikka",
-    "oneliner": "Solein: single-cell protein produced from CO2, H2 and electricity - air-based protein",
-    "tech": "Solein: single-cell protein produced from CO2, H2 and electricity - air-based protein",
-    "stage": "Series B",
-    "funding": "\u20ac50M+ total",
-    "investors": "EIT Food, Finnish Govt, Fazer",
-    "revenue_model": "Manufactures Solein protein from CO2 and electricity; sells protein ingredient to food manufacturers; commercial facility operational since 2024",
-    "target_market": "Food manufacturers, nutrition companies, and animal feed producers seeking sustainable protein with minimal water/land footprint",
-    "impact": "Uses 99% less energy than animal agriculture and only 10L water per kg (vs. 15,000L for beef); directly converts atmospheric CO2 into food protein",
-    "website": "solarfoods.com",
-    "differentiator": "Entirely decoupled from land/sun/water; 100x lower land use than soy; EU Novel Food approved"
-  },
-  {
     "name": "Fragaria",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2024",
     "hq": "Chennai, India",
@@ -3215,7 +2789,7 @@ const COMPANIES = [
   },
   {
     "name": "Jovaki Agro Food",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2017",
     "hq": "Udaipur, India",
@@ -3233,7 +2807,7 @@ const COMPANIES = [
   },
   {
     "name": "Krop AI",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2021",
     "hq": "Udupi, India",
@@ -3251,7 +2825,7 @@ const COMPANIES = [
   },
   {
     "name": "Organic Mandya",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2015",
     "hq": "Mandya, India",
@@ -3269,7 +2843,7 @@ const COMPANIES = [
   },
   {
     "name": "Two Brothers Organic Farms",
-    "sector": "Agriculture & Food",
+    "sector": "Food, Land & Carbon",
     "vertical": "Agri & Food",
     "founded": "2014",
     "hq": "Pune, India",
@@ -3287,7 +2861,7 @@ const COMPANIES = [
   },
   {
     "name": "ReLoop Technologies",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "\u2014",
     "hq": "\u2014",
@@ -3305,7 +2879,7 @@ const COMPANIES = [
   },
   {
     "name": "ZeroCircle",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2020",
     "hq": "Pune, India",
@@ -3323,7 +2897,7 @@ const COMPANIES = [
   },
   {
     "name": "Wastelink",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2018",
     "hq": "Sonipat, India",
@@ -3341,7 +2915,7 @@ const COMPANIES = [
   },
   {
     "name": "Bitubin",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "\u2014",
     "hq": "Faridabad, India",
@@ -3359,7 +2933,7 @@ const COMPANIES = [
   },
   {
     "name": "Craste",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2018",
     "hq": "Pune, India",
@@ -3377,7 +2951,7 @@ const COMPANIES = [
   },
   {
     "name": "Loopworm",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2019",
     "hq": "\u2014",
@@ -3395,7 +2969,7 @@ const COMPANIES = [
   },
   {
     "name": "APChemi",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2007",
     "hq": "Navi Mumbai, India",
@@ -3413,7 +2987,7 @@ const COMPANIES = [
   },
   {
     "name": "InfinityBox",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2018",
     "hq": "Bengaluru, India",
@@ -3431,7 +3005,7 @@ const COMPANIES = [
   },
   {
     "name": "Wricks",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2020",
     "hq": "Udaipur, India",
@@ -3449,7 +3023,7 @@ const COMPANIES = [
   },
   {
     "name": "CercleX",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2020",
     "hq": "Coimbatore, India",
@@ -3467,7 +3041,7 @@ const COMPANIES = [
   },
   {
     "name": "Bambrew",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2018",
     "hq": "\u2014",
@@ -3485,7 +3059,7 @@ const COMPANIES = [
   },
   {
     "name": "Terra Bioware",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2022",
     "hq": "Bengaluru, India",
@@ -3503,7 +3077,7 @@ const COMPANIES = [
   },
   {
     "name": "Buyofuel",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2020",
     "hq": "Coimbatore, India",
@@ -3521,7 +3095,7 @@ const COMPANIES = [
   },
   {
     "name": "Phool.co",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2015",
     "hq": "Kanpur, India",
@@ -3539,7 +3113,7 @@ const COMPANIES = [
   },
   {
     "name": "Dharaksha Ecosolutions",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2020",
     "hq": "Delhi-NCR, India",
@@ -3557,7 +3131,7 @@ const COMPANIES = [
   },
   {
     "name": "Grassroots Energy",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2017",
     "hq": "India",
@@ -3575,7 +3149,7 @@ const COMPANIES = [
   },
   {
     "name": "Banyan Nation",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2013",
     "hq": "Hyderabad, India",
@@ -3593,7 +3167,7 @@ const COMPANIES = [
   },
   {
     "name": "Recykal",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2016",
     "hq": "Hyderabad, India",
@@ -3611,7 +3185,7 @@ const COMPANIES = [
   },
   {
     "name": "TrashCon",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "\u2014",
     "hq": "Bengaluru, India",
@@ -3629,7 +3203,7 @@ const COMPANIES = [
   },
   {
     "name": "Plastics For Change",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2016",
     "hq": "India",
@@ -3647,7 +3221,7 @@ const COMPANIES = [
   },
   {
     "name": "GPS Renewables",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2012",
     "hq": "Bengaluru",
@@ -3665,7 +3239,7 @@ const COMPANIES = [
   },
   {
     "name": "Saahas Zero Waste",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2014",
     "hq": "Bengaluru, India",
@@ -3683,7 +3257,7 @@ const COMPANIES = [
   },
   {
     "name": "Attero Recycling",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2008",
     "hq": "Noida, India",
@@ -3701,7 +3275,7 @@ const COMPANIES = [
   },
   {
     "name": "Nepra",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2011",
     "hq": "Ahmedabad, India",
@@ -3719,7 +3293,7 @@ const COMPANIES = [
   },
   {
     "name": "Renewity",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2019",
     "hq": "India, India",
@@ -3737,7 +3311,7 @@ const COMPANIES = [
   },
   {
     "name": "Enviropol",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2018",
     "hq": "Gujarat, India",
@@ -3755,7 +3329,7 @@ const COMPANIES = [
   },
   {
     "name": "rePurpose",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2019",
     "hq": "Bengaluru/NYC, India",
@@ -3773,7 +3347,7 @@ const COMPANIES = [
   },
   {
     "name": "Chakr Innovation",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2016",
     "hq": "Delhi NCR, India",
@@ -3791,7 +3365,7 @@ const COMPANIES = [
   },
   {
     "name": "ReCircle",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "\u2014",
     "hq": "India",
@@ -3809,7 +3383,7 @@ const COMPANIES = [
   },
   {
     "name": "Lucro",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "\u2014",
     "hq": "India",
@@ -3826,152 +3400,8 @@ const COMPANIES = [
     "differentiator": "Converts low-value flexible plastic into circular packaging; FMCG partnerships"
   },
   {
-    "name": "Graviky Labs",
-    "sector": "Circular Economy",
-    "vertical": "Waste & Circular",
-    "founded": "\u2014",
-    "hq": "India / US",
-    "founders": "Anirudh Sharma",
-    "oneliner": "Air pollution capture technology; converts vehicular soot into ink, paint, dyes",
-    "tech": "Air pollution capture technology",
-    "stage": "Seed",
-    "funding": "$3M+ est.",
-    "investors": "Impact angels, UNDP",
-    "revenue_model": "Captures pollutants from vehicle exhaust using Kaalink devices and converts to Air-Ink products (markers, pens, paints); consumer sales",
-    "target_market": "Artists, designers, students, eco-conscious consumers; vehicle owners and corporate sustainability programs",
-    "impact": "Captures 95% of particulate matter from exhaust; has cleaned 1.6 trillion liters of air; each marker replaces 40-50 min of vehicle pollution",
-    "website": "graviky.com",
-    "differentiator": "Captures vehicular soot and converts to ink & paint (Air-Ink); Tiger Balm partnership"
-  },
-  {
-    "name": "Cylib",
-    "sector": "Circular Economy",
-    "vertical": "Waste & Circular",
-    "founded": "\u2014",
-    "hq": "Aachen, Germany",
-    "founders": "Dr. Gideon Scheiber",
-    "oneliner": "Water-based Li-ion battery recycling; 90%+ recovery of Li, Ni, Co, Mn, graphite",
-    "tech": "Water-based Li-ion battery recycling",
-    "stage": "Series A-B",
-    "funding": "\u20ac55M total",
-    "investors": "World Fund, Porsche Ventures, Bosch Ventures",
-    "revenue_model": "Recovers critical raw materials (lithium, graphite, nickel, cobalt) from used lithium-ion batteries; sells recycled materials to battery manufacturers",
-    "target_market": "Battery manufacturers, EV producers seeking circular supply chains; recyclers of used lithium-ion batteries across Europe",
-    "impact": "Water-based chemical-free recycling process recovers critical minerals; reduces mining demand and enables circular battery value chain",
-    "website": "cylib.de",
-    "differentiator": "Largest European battery recycling Series A; 30,000 tonne/yr plant under construction"
-  },
-  {
-    "name": "Tozero",
-    "sector": "Circular Economy",
-    "vertical": "Waste & Circular",
-    "founded": "\u2014",
-    "hq": "Munich, Germany",
-    "founders": "Sarah Fleischer",
-    "oneliner": "Complementary Li-ion battery recycling; black-mass to battery-grade materials",
-    "tech": "Complementary Li-ion battery recycling",
-    "stage": "Series A",
-    "funding": "\u20ac30M+ est.",
-    "investors": "European climate VCs",
-    "revenue_model": "Lithium-ion battery recycling using proprietary hydrometallurgical technology; revenue through recovery and sale of critical materials",
-    "target_market": "European automotive and energy storage industries; EV manufacturers and battery producers requiring sustainable material sourcing",
-    "impact": "Recovers all critical materials from lithium-ion batteries, eliminating waste and reducing mining dependency; targets 10,000+ tons recycled graphite by 2030",
-    "website": "tozero.eu",
-    "differentiator": "Deep German automotive supply chain connections; complementary to Cylib approach"
-  },
-  {
-    "name": "SOLARCYCLE",
-    "sector": "Circular Economy",
-    "vertical": "Waste & Circular",
-    "founded": "\u2014",
-    "hq": "US / Texas",
-    "founders": "Jesse Simons",
-    "oneliner": "Solar panel recycling - recovers silver, silicon, copper from end-of-life panels",
-    "tech": "Solar panel recycling - recovers silver, silicon, copper from end-of-life panels",
-    "stage": "Series B",
-    "funding": "$40M+ total",
-    "investors": "HG Ventures, Fifth Wall",
-    "revenue_model": "Operates solar panel recycling facility; provides transportation, sorting, and recycling services; revenue through material recovery and resale",
-    "target_market": "Utility-scale and residential solar operators in the US; solar installers and decommissioning projects for end-of-life panels",
-    "impact": "Recovers 95%+ of valuable materials (aluminum, silver, silicon, glass) from end-of-life solar panels, returning materials to domestic supply chains",
-    "website": "solarcycle.com",
-    "differentiator": "First US solar panel recycling at scale; 97% material recovery rate"
-  },
-  {
-    "name": "Protein Evolution",
-    "sector": "Circular Economy",
-    "vertical": "Waste & Circular",
-    "founded": "\u2014",
-    "hq": "US",
-    "founders": "CEO",
-    "oneliner": "Enzymatic recycling of mixed/contaminated plastics into virgin-equivalent feedstocks",
-    "tech": "Enzymatic recycling of mixed/contaminated plastics into virgin-equivalent feedstocks",
-    "stage": "Series A",
-    "funding": "$20M+ est.",
-    "investors": "Breakthrough Energy, DCVC",
-    "revenue_model": "Licenses engineered plastic-eating enzymes to textile and recycling companies; operates demonstration facilities processing plastic waste",
-    "target_market": "Polyester textile manufacturers, plastic packaging companies seeking circular production models (partnership with Stella McCartney)",
-    "impact": "AI-engineered enzymes enable rapid breakdown of polyester and PET waste, reducing dependency on fossil fuel-derived virgin plastics",
-    "website": "proteinevolution.com",
-    "differentiator": "Enzymatic process handles contaminated/mixed plastics that no other recycler can"
-  },
-  {
-    "name": "Greyparrot",
-    "sector": "Circular Economy",
-    "vertical": "Waste & Circular",
-    "founded": "\u2014",
-    "hq": "London, UK",
-    "founders": "Mikela Druckman",
-    "oneliner": "Computer vision AI for real-time waste stream monitoring & analytics at MRFs",
-    "tech": "Computer vision AI for real-time waste stream monitoring & analytics at MRFs",
-    "stage": "Pre-Series B",
-    "funding": "$12.8M total",
-    "investors": "Una Terra, Closed Loop Partners, DCVC",
-    "revenue_model": "AI waste analytics SaaS software and Analyzer hardware units providing real-time waste tracking through camera-based monitoring at MRFs",
-    "target_market": "Material Recovery Facilities (MRFs), recycling operators, and waste management companies seeking operational efficiency",
-    "impact": "Provides 100% visibility into waste composition; analyzed 25B+ waste objects in 2023, enabling millions of tons diverted from landfills",
-    "website": "greyparrot.ai",
-    "differentiator": "60% of UK waste mgmt covered (Suez, Veolia, Biffa); EPR compliance tailwind"
-  },
-  {
-    "name": "Recycleye",
-    "sector": "Circular Economy",
-    "vertical": "Waste & Circular",
-    "founded": "\u2014",
-    "hq": "London, UK",
-    "founders": "Victor Dewulf",
-    "oneliner": "AI-powered robotic sorting arms for MRFs; identifies & picks materials at speed",
-    "tech": "AI-powered robotic sorting arms for MRFs",
-    "stage": "Series B",
-    "funding": "$23.4M total",
-    "investors": "Norse Environmental, Promus, MMC",
-    "revenue_model": "AI-powered robotic sorting systems and software for waste facilities; equipment sales and analytics platform subscriptions",
-    "target_market": "Waste management operators, recycling facilities, and integrated waste companies globally requiring sorting automation",
-    "impact": "Robotic arms achieve 99%+ sorting purity while reducing labor costs by 50%; processes 33,000 items per 10-hour shift",
-    "website": "recycleye.com",
-    "differentiator": "Deployments in UK, Portugal, France; 23.4M raised; Norse Environmental investment"
-  },
-  {
-    "name": "Matryx (Glencore JV)",
-    "sector": "Circular Economy",
-    "vertical": "Waste & Circular",
-    "founded": "\u2014",
-    "hq": "Switzerland / Global",
-    "founders": "CEO",
-    "oneliner": "Battery metal trading + recycling supply chain optimisation platform",
-    "tech": "Battery metal trading + recycling supply chain optimisation platform",
-    "stage": "JV / Growth",
-    "funding": "$50M+ JV value",
-    "investors": "Glencore (JV partner)",
-    "revenue_model": "Recovers critical metals from end-of-life lithium-ion batteries and e-waste; sells recovered lithium, nickel, cobalt, and copper to manufacturers",
-    "target_market": "EV manufacturers, battery producers, and electronics companies in Europe and North America requiring sustainable material sourcing",
-    "impact": "Recovers battery-grade materials from e-waste, reducing mining impact; Europe's largest battery recycling hub with 50,000-70,000 ton annual capacity",
-    "website": "matryx.co",
-    "differentiator": "Glencore JV gives global battery metal supply chain access; arbitrage + recycling"
-  },
-  {
     "name": "Apratima Biosolutions",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2022",
     "hq": "Bangalore, India",
@@ -3989,7 +3419,7 @@ const COMPANIES = [
   },
   {
     "name": "Ekam Eco Solutions",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2013",
     "hq": "Delhi, India",
@@ -4007,7 +3437,7 @@ const COMPANIES = [
   },
   {
     "name": "Green Worms",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2014",
     "hq": "Kozhikode, India",
@@ -4025,7 +3455,7 @@ const COMPANIES = [
   },
   {
     "name": "Hasiru Dala Innovations",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2015",
     "hq": "Bengaluru, India",
@@ -4043,7 +3473,7 @@ const COMPANIES = [
   },
   {
     "name": "Padcare",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2018",
     "hq": "Pune, India",
@@ -4061,7 +3491,7 @@ const COMPANIES = [
   },
   {
     "name": "Polycycl",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2016",
     "hq": "Haryana, India",
@@ -4079,7 +3509,7 @@ const COMPANIES = [
   },
   {
     "name": "Recube",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2019",
     "hq": "Mumbai, India",
@@ -4097,7 +3527,7 @@ const COMPANIES = [
   },
   {
     "name": "The Good Doll",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Waste & Circular",
     "founded": "2021",
     "hq": "Ooty, India",
@@ -4115,7 +3545,7 @@ const COMPANIES = [
   },
   {
     "name": "CarbonCraft",
-    "sector": "Built Environment",
+    "sector": "Built Environment & Cities",
     "vertical": "Built Env & Cooling",
     "founded": "2016",
     "hq": "Hubballi, India",
@@ -4133,7 +3563,7 @@ const COMPANIES = [
   },
   {
     "name": "Albatross Energetics",
-    "sector": "Built Environment",
+    "sector": "Built Environment & Cities",
     "vertical": "Built Env & Cooling",
     "founded": "2021",
     "hq": "Mumbai, India",
@@ -4151,7 +3581,7 @@ const COMPANIES = [
   },
   {
     "name": "Q-Gen",
-    "sector": "Built Environment",
+    "sector": "Built Environment & Cities",
     "vertical": "Built Env & Cooling",
     "founded": "\u2014",
     "hq": "\u2014",
@@ -4169,7 +3599,7 @@ const COMPANIES = [
   },
   {
     "name": "Bhumi",
-    "sector": "Built Environment",
+    "sector": "Built Environment & Cities",
     "vertical": "Built Env & Cooling",
     "founded": "\u2014",
     "hq": "\u2014",
@@ -4187,7 +3617,7 @@ const COMPANIES = [
   },
   {
     "name": "Thermistance",
-    "sector": "Built Environment",
+    "sector": "Built Environment & Cities",
     "vertical": "Built Env & Cooling",
     "founded": "2020",
     "hq": "Pune, India",
@@ -4205,7 +3635,7 @@ const COMPANIES = [
   },
   {
     "name": "GreenJams",
-    "sector": "Built Environment",
+    "sector": "Built Environment & Cities",
     "vertical": "Built Env & Cooling",
     "founded": "2017",
     "hq": "Visakhapatnam, India",
@@ -4223,7 +3653,7 @@ const COMPANIES = [
   },
   {
     "name": "Strawcture",
-    "sector": "Built Environment",
+    "sector": "Built Environment & Cities",
     "vertical": "Built Env & Cooling",
     "founded": "2018",
     "hq": "New Delhi, India",
@@ -4241,7 +3671,7 @@ const COMPANIES = [
   },
   {
     "name": "Tvasta",
-    "sector": "Built Environment",
+    "sector": "Built Environment & Cities",
     "vertical": "Built Env & Cooling",
     "founded": "2016",
     "hq": "Chennai, India",
@@ -4259,7 +3689,7 @@ const COMPANIES = [
   },
   {
     "name": "Ambiator",
-    "sector": "Built Environment",
+    "sector": "Built Environment & Cities",
     "vertical": "Built Env & Cooling",
     "founded": "2022",
     "hq": "Hyderabad, India",
@@ -4277,7 +3707,7 @@ const COMPANIES = [
   },
   {
     "name": "Atomberg",
-    "sector": "Built Environment",
+    "sector": "Built Environment & Cities",
     "vertical": "Built Env & Cooling",
     "founded": "2012",
     "hq": "\u2014",
@@ -4295,7 +3725,7 @@ const COMPANIES = [
   },
   {
     "name": "Tan90",
-    "sector": "Built Environment",
+    "sector": "Built Environment & Cities",
     "vertical": "Built Env & Cooling",
     "founded": "2019",
     "hq": "Chennai, India",
@@ -4313,7 +3743,7 @@ const COMPANIES = [
   },
   {
     "name": "Promethean Energy",
-    "sector": "Built Environment",
+    "sector": "Built Environment & Cities",
     "vertical": "Built Env & Cooling",
     "founded": "2014",
     "hq": "India",
@@ -4331,7 +3761,7 @@ const COMPANIES = [
   },
   {
     "name": "CIMware",
-    "sector": "Built Environment",
+    "sector": "Built Environment & Cities",
     "vertical": "Built Env & Cooling",
     "founded": "2018",
     "hq": "Bengaluru, India",
@@ -4349,7 +3779,7 @@ const COMPANIES = [
   },
   {
     "name": "Ricron Panels",
-    "sector": "Built Environment",
+    "sector": "Built Environment & Cities",
     "vertical": "Built Env & Cooling",
     "founded": "\u2014",
     "hq": "Gujarat, India",
@@ -4367,7 +3797,7 @@ const COMPANIES = [
   },
   {
     "name": "OxyGarden",
-    "sector": "Built Environment",
+    "sector": "Built Environment & Cities",
     "vertical": "Built Env & Cooling",
     "founded": "2019",
     "hq": "Gurugram, India",
@@ -4385,7 +3815,7 @@ const COMPANIES = [
   },
   {
     "name": "Proklean",
-    "sector": "Built Environment",
+    "sector": "Built Environment & Cities",
     "vertical": "Built Env & Cooling",
     "founded": "2012",
     "hq": "Chennai, India",
@@ -4403,7 +3833,7 @@ const COMPANIES = [
   },
   {
     "name": "75F",
-    "sector": "Built Environment",
+    "sector": "Built Environment & Cities",
     "vertical": "Built Env & Cooling",
     "founded": "2012",
     "hq": "Bengaluru, India",
@@ -4421,7 +3851,7 @@ const COMPANIES = [
   },
   {
     "name": "Smart Joules",
-    "sector": "Built Environment",
+    "sector": "Built Environment & Cities",
     "vertical": "Built Env & Cooling",
     "founded": "\u2014",
     "hq": "Delhi, India",
@@ -4439,7 +3869,7 @@ const COMPANIES = [
   },
   {
     "name": "Xenius",
-    "sector": "Built Environment",
+    "sector": "Built Environment & Cities",
     "vertical": "Built Env & Cooling",
     "founded": "\u2014",
     "hq": "Bengaluru, India",
@@ -4457,7 +3887,7 @@ const COMPANIES = [
   },
   {
     "name": "Enlite Research",
-    "sector": "Built Environment",
+    "sector": "Built Environment & Cities",
     "vertical": "Built Env & Cooling",
     "founded": "\u2014",
     "hq": "India",
@@ -4474,116 +3904,8 @@ const COMPANIES = [
     "differentiator": "Wireless BMS reduces installation cost by 50%; govt building retrofits"
   },
   {
-    "name": "Gradiant",
-    "sector": "Built Environment",
-    "vertical": "Built Env & Cooling",
-    "founded": "\u2014",
-    "hq": "Boston, MA",
-    "founders": "Anurag Bajpayee",
-    "oneliner": "Advanced industrial water treatment; selective contaminant extraction; zero-liquid-discharge",
-    "tech": "Advanced industrial water treatment",
-    "stage": "Growth / Late",
-    "funding": "$300M+ total",
-    "investors": "Warburg Pincus, M&G, BDT",
-    "revenue_model": "Designs and builds end-to-end industrial water treatment systems; system sales, installation, and ongoing optimization services",
-    "target_market": "Semiconductor manufacturers, pharmaceuticals, food & beverage, lithium mining, and renewable energy projects globally",
-    "impact": "2,500+ systems help companies reuse 2B gallons of water daily while preventing withdrawal of additional 2B gallons of fresh water annually",
-    "website": "gradiant.com",
-    "differentiator": "Deployed at 450+ sites globally; clientele includes Intel, TSMC, Coca-Cola"
-  },
-  {
-    "name": "Fluence",
-    "sector": "Built Environment",
-    "vertical": "Built Env & Cooling",
-    "founded": "\u2014",
-    "hq": "US / Australia",
-    "founders": "Henry Charrab\u00e9",
-    "oneliner": "Decentralised smart water treatment solutions; MABR, RO, desalination",
-    "tech": "Decentralised smart water treatment solutions",
-    "stage": "ASX listed",
-    "funding": "$100M+ revenue",
-    "investors": "Public markets",
-    "revenue_model": "Provides decentralized, packaged water/wastewater treatment solutions including NIROBOX containerized system and MABR technology; system sales and operational support",
-    "target_market": "Municipalities, industrial facilities, food & beverage, and developing regions requiring reliable water and wastewater treatment",
-    "impact": "MABR technology reduces aeration power consumption by up to 90% vs. traditional methods; decentralized treatment reduces infrastructure burden",
-    "website": "fluencecorp.com",
-    "differentiator": "Decentralised water treatment & reuse; NIROBOX desalination containers"
-  },
-  {
-    "name": "Pani Energy",
-    "sector": "Built Environment",
-    "vertical": "Built Env & Cooling",
-    "founded": "\u2014",
-    "hq": "Vancouver, Canada",
-    "founders": "Devesh Bharadwaj",
-    "oneliner": "AI optimisation for desalination & water treatment; digital twin + ML control",
-    "tech": "AI optimisation for desalination & water treatment",
-    "stage": "Series A",
-    "funding": "$10M+ est.",
-    "investors": "Breakthrough Energy, Emerald",
-    "revenue_model": "Cloud-based ML software platform for water treatment plant optimization; SaaS licensing with zero capital expense model for operators",
-    "target_market": "Industrial and municipal desalination plants, wastewater treatment facilities, and water utilities globally",
-    "impact": "AI and digital twin simulations optimize filtration, chemical treatment, and maintenance, reducing energy and water consumption in treatment",
-    "website": "panienergy.com",
-    "differentiator": "AI optimisation for desalination & water treatment plants; 30% energy savings"
-  },
-  {
-    "name": "Biolyt",
-    "sector": "Built Environment",
-    "vertical": "Built Env & Cooling",
-    "founded": "\u2014",
-    "hq": "Switzerland / EU",
-    "founders": "CEO",
-    "oneliner": "High-efficiency biomass CHP (combined heat & power) systems",
-    "tech": "High-efficiency biomass CHP (combined heat & power) systems",
-    "stage": "Series A",
-    "funding": "$10M+ est.",
-    "investors": "European climate investors",
-    "revenue_model": "Manufactures and sells off-grid energy products including biomass cookstoves and solar home systems for consumer and emerging market sales",
-    "target_market": "Off-grid households in emerging markets and outdoor recreational enthusiasts in developed markets",
-    "impact": "Cookstoves convert biomass heat to electricity while reducing fuel needs by 50%, toxic smoke by 95%, and carbon monoxide by 91%",
-    "website": "biolyt.com",
-    "differentiator": "High-efficiency biomass boilers for commercial/industrial heating"
-  },
-  {
-    "name": "WaterGen",
-    "sector": "Built Environment",
-    "vertical": "Built Env & Cooling",
-    "founded": "\u2014",
-    "hq": "Israel / Global",
-    "founders": "Michael Mirilashvili",
-    "oneliner": "Atmospheric water generation (AWG) from air humidity; residential to industrial scale",
-    "tech": "Atmospheric water generation (AWG) from air humidity",
-    "stage": "Growth",
-    "funding": "$200M+ total",
-    "investors": "Goldwind, strategic investors",
-    "revenue_model": "Manufactures and sells Atmospheric Water Generator (AWG) units that extract drinking water from humidity; unit sales across residential, industrial, and emergency applications",
-    "target_market": "Regions facing water scarcity, military/emergency response, automotive manufacturers, and remote/off-grid communities",
-    "impact": "Converts atmospheric humidity into mineral-rich drinking water requiring no piping or plastic infrastructure; 4L water per kWh in water-stressed regions",
-    "website": "watergen.com",
-    "differentiator": "Military-grade AWG scaled to commercial/residential; deployed in 80+ countries"
-  },
-  {
-    "name": "Aqwise",
-    "sector": "Built Environment",
-    "vertical": "Built Env & Cooling",
-    "founded": "\u2014",
-    "hq": "Israel / Global",
-    "founders": "CEO",
-    "oneliner": "MBBR wastewater treatment technology; biofilm carrier systems for municipal/industrial",
-    "tech": "MBBR wastewater treatment technology",
-    "stage": "Acquired",
-    "funding": "Acquired by Veolia",
-    "investors": "Veolia (parent)",
-    "revenue_model": "Designs and implements biological water/wastewater treatment systems using proprietary AGAR technology; system design, installation, and licensing globally",
-    "target_market": "Industrial corporations (Coca-Cola, Unilever, Nestle), municipalities, and wastewater operators across 50+ countries",
-    "impact": "AGAR MBBR and IFAS technologies reduce energy consumption and chemical inputs in treatment processes; implemented in 500+ global sites",
-    "website": "aqwise.com",
-    "differentiator": "Acquired by Veolia; MBBR technology installed in 200+ plants worldwide"
-  },
-  {
     "name": "Smarter Dharma",
-    "sector": "Built Environment",
+    "sector": "Built Environment & Cities",
     "vertical": "Built Env & Cooling",
     "founded": "2012",
     "hq": "Bengaluru, India",
@@ -4601,7 +3923,7 @@ const COMPANIES = [
   },
   {
     "name": "Zodhya",
-    "sector": "Built Environment",
+    "sector": "Built Environment & Cities",
     "vertical": "Built Env & Cooling",
     "founded": "2017",
     "hq": "Hyderabad, India",
@@ -4619,7 +3941,7 @@ const COMPANIES = [
   },
   {
     "name": "Earthfokus",
-    "sector": "Water & Ocean",
+    "sector": "Built Environment & Cities",
     "vertical": "Water & Ocean",
     "founded": "2018",
     "hq": "Chennai, India",
@@ -4637,7 +3959,7 @@ const COMPANIES = [
   },
   {
     "name": "Digital Paani",
-    "sector": "Water & Ocean",
+    "sector": "Built Environment & Cities",
     "vertical": "Water & Ocean",
     "founded": "2020",
     "hq": "\u2014",
@@ -4655,7 +3977,7 @@ const COMPANIES = [
   },
   {
     "name": "Captain Fresh",
-    "sector": "Water & Ocean",
+    "sector": "Built Environment & Cities",
     "vertical": "Water & Ocean",
     "founded": "2019",
     "hq": "Bengaluru, India",
@@ -4673,7 +3995,7 @@ const COMPANIES = [
   },
   {
     "name": "Uravu Labs",
-    "sector": "Water & Ocean",
+    "sector": "Built Environment & Cities",
     "vertical": "Water & Ocean",
     "founded": "2017",
     "hq": "Bengaluru, India",
@@ -4691,7 +4013,7 @@ const COMPANIES = [
   },
   {
     "name": "DrinkPrime",
-    "sector": "Water & Ocean",
+    "sector": "Built Environment & Cities",
     "vertical": "Water & Ocean",
     "founded": "2016",
     "hq": "India",
@@ -4709,7 +4031,7 @@ const COMPANIES = [
   },
   {
     "name": "Vassar Labs",
-    "sector": "Water & Ocean",
+    "sector": "Built Environment & Cities",
     "vertical": "Water & Ocean",
     "founded": "2014",
     "hq": "Hyderabad, India",
@@ -4727,7 +4049,7 @@ const COMPANIES = [
   },
   {
     "name": "DigitalPaani",
-    "sector": "Water & Ocean",
+    "sector": "Built Environment & Cities",
     "vertical": "Water & Ocean",
     "founded": "2020",
     "hq": "Gurugram, India",
@@ -4745,7 +4067,7 @@ const COMPANIES = [
   },
   {
     "name": "Majico",
-    "sector": "Water & Ocean",
+    "sector": "Built Environment & Cities",
     "vertical": "Water & Ocean",
     "founded": "2018",
     "hq": "India, India",
@@ -4763,7 +4085,7 @@ const COMPANIES = [
   },
   {
     "name": "Bariflo Labs",
-    "sector": "Water & Ocean",
+    "sector": "Built Environment & Cities",
     "vertical": "Water & Ocean",
     "founded": "2018",
     "hq": "Bhubaneswar, India",
@@ -4781,7 +4103,7 @@ const COMPANIES = [
   },
   {
     "name": "Boson Whitewater",
-    "sector": "Water & Ocean",
+    "sector": "Built Environment & Cities",
     "vertical": "Water & Ocean",
     "founded": "2011",
     "hq": "Bengaluru, India",
@@ -4799,7 +4121,7 @@ const COMPANIES = [
   },
   {
     "name": "FluxGen",
-    "sector": "Water & Ocean",
+    "sector": "Built Environment & Cities",
     "vertical": "Water & Ocean",
     "founded": "2021",
     "hq": "Bengaluru, India",
@@ -4817,7 +4139,7 @@ const COMPANIES = [
   },
   {
     "name": "Greenvironment",
-    "sector": "Water & Ocean",
+    "sector": "Built Environment & Cities",
     "vertical": "Water & Ocean",
     "founded": "2012",
     "hq": "Chennai, India",
@@ -4835,7 +4157,7 @@ const COMPANIES = [
   },
   {
     "name": "JSP Enviro",
-    "sector": "Water & Ocean",
+    "sector": "Built Environment & Cities",
     "vertical": "Water & Ocean",
     "founded": "2019",
     "hq": "Chennai, India",
@@ -4853,7 +4175,7 @@ const COMPANIES = [
   },
   {
     "name": "Marin Elixirs",
-    "sector": "Water & Ocean",
+    "sector": "Built Environment & Cities",
     "vertical": "Water & Ocean",
     "founded": "2022",
     "hq": "Chennai, India",
@@ -4871,7 +4193,7 @@ const COMPANIES = [
   },
   {
     "name": "Solinas",
-    "sector": "Water & Ocean",
+    "sector": "Built Environment & Cities",
     "vertical": "Water & Ocean",
     "founded": "2018",
     "hq": "Chennai, India",
@@ -4889,7 +4211,7 @@ const COMPANIES = [
   },
   {
     "name": "Wattr",
-    "sector": "Water & Ocean",
+    "sector": "Built Environment & Cities",
     "vertical": "Water & Ocean",
     "founded": "2023",
     "hq": "Nashik, India",
@@ -4907,7 +4229,7 @@ const COMPANIES = [
   },
   {
     "name": "GreenFi",
-    "sector": "Climate Software",
+    "sector": "Climate Intelligence",
     "vertical": "Climate Software",
     "founded": "2023",
     "hq": "Kochi, India",
@@ -4925,7 +4247,7 @@ const COMPANIES = [
   },
   {
     "name": "Resilience.AI",
-    "sector": "Climate Software",
+    "sector": "Climate Intelligence",
     "vertical": "Climate Software",
     "founded": "2023",
     "hq": "\u2014",
@@ -4943,7 +4265,7 @@ const COMPANIES = [
   },
   {
     "name": "Tek Uncorked",
-    "sector": "Climate Software",
+    "sector": "Climate Intelligence",
     "vertical": "Climate Software",
     "founded": "2019",
     "hq": "Gurugram, India",
@@ -4961,7 +4283,7 @@ const COMPANIES = [
   },
   {
     "name": "Ecolibrium",
-    "sector": "Climate Software",
+    "sector": "Climate Intelligence",
     "vertical": "Climate Software",
     "founded": "2008",
     "hq": "Bangalore, India",
@@ -4979,7 +4301,7 @@ const COMPANIES = [
   },
   {
     "name": "Sentra.world",
-    "sector": "Climate Software",
+    "sector": "Climate Intelligence",
     "vertical": "Climate Software",
     "founded": "2023",
     "hq": "Bengaluru, India",
@@ -4997,7 +4319,7 @@ const COMPANIES = [
   },
   {
     "name": "LogicLadder",
-    "sector": "Climate Software",
+    "sector": "Climate Intelligence",
     "vertical": "Climate Software",
     "founded": "2018",
     "hq": "India",
@@ -5015,7 +4337,7 @@ const COMPANIES = [
   },
   {
     "name": "Niramai",
-    "sector": "Climate Software",
+    "sector": "Climate Intelligence",
     "vertical": "Climate Software",
     "founded": "2016",
     "hq": "Bengaluru, India",
@@ -5033,7 +4355,7 @@ const COMPANIES = [
   },
   {
     "name": "GalaxEye",
-    "sector": "Climate Software",
+    "sector": "Climate Intelligence",
     "vertical": "Climate Software",
     "founded": "2021",
     "hq": "Bengaluru, India",
@@ -5051,7 +4373,7 @@ const COMPANIES = [
   },
   {
     "name": "Aurassure",
-    "sector": "Climate Software",
+    "sector": "Climate Intelligence",
     "vertical": "Climate Software",
     "founded": "2022",
     "hq": "Bhubaneswar, India",
@@ -5069,7 +4391,7 @@ const COMPANIES = [
   },
   {
     "name": "Updapt",
-    "sector": "Climate Software",
+    "sector": "Climate Intelligence",
     "vertical": "Climate Software",
     "founded": "2019",
     "hq": "Bengaluru, India",
@@ -5087,7 +4409,7 @@ const COMPANIES = [
   },
   {
     "name": "Blue Sky Analytics",
-    "sector": "Climate Software",
+    "sector": "Climate Intelligence",
     "vertical": "Climate Software",
     "founded": "2018",
     "hq": "India",
@@ -5105,7 +4427,7 @@ const COMPANIES = [
   },
   {
     "name": "Skymet Weather",
-    "sector": "Climate Software",
+    "sector": "Climate Intelligence",
     "vertical": "Climate Software",
     "founded": "2003",
     "hq": "Noida",
@@ -5123,7 +4445,7 @@ const COMPANIES = [
   },
   {
     "name": "Ecofy",
-    "sector": "Climate Software",
+    "sector": "Climate Intelligence",
     "vertical": "Climate Software",
     "founded": "2022",
     "hq": "Mumbai",
@@ -5141,7 +4463,7 @@ const COMPANIES = [
   },
   {
     "name": "cKers Finance",
-    "sector": "Climate Software",
+    "sector": "Climate Intelligence",
     "vertical": "Climate Software",
     "founded": "2018",
     "hq": "Bengaluru, India",
@@ -5158,26 +4480,8 @@ const COMPANIES = [
     "differentiator": "Specialized debt financing for cleantech startups and MSMEs in clean energy and e-mobility; backed by Climate Angels/impact VCs"
   },
   {
-    "name": "EcoRatings",
-    "sector": "Climate Software",
-    "vertical": "Climate Software",
-    "founded": "2023",
-    "hq": "New York (India ops), India",
-    "founders": "Aditi Balbir, Aqeel Ahmed, Shruti Anand",
-    "oneliner": "AI/ML/BigData to quantify environmental impact; LLM with RAG architecture; ESG ratings",
-    "tech": "ESG Software",
-    "stage": "Pre-Seed",
-    "funding": "$1M",
-    "investors": "We Founder Circle/BBB VC/Vinners/Indigram/Google",
-    "revenue_model": "SaaS subscriptions for ESG analysis, climate data platform, SEBI-licensed ratings",
-    "target_market": "Global (NY + India ops); consulting firms, investment banks, corporates, BFSI",
-    "impact": "Democratizes ESG metrics; enables companies to measure and reduce environmental footprint",
-    "website": "ecoratings.in",
-    "differentiator": "AI/ML/BigData to quantify environmental impact; LLM with RAG architecture; ESG ratings; Funding: $1M; backed by We Founder Circle/BBB VC/Vinners/Indigram/Google"
-  },
-  {
     "name": "EdgeGrid",
-    "sector": "Climate Software",
+    "sector": "Climate Intelligence",
     "vertical": "Climate Software",
     "founded": "2020",
     "hq": "Hyderabad, India",
@@ -5195,7 +4499,7 @@ const COMPANIES = [
   },
   {
     "name": "Esyasoft",
-    "sector": "Climate Software",
+    "sector": "Climate Intelligence",
     "vertical": "Climate Software",
     "founded": "\u2014",
     "hq": "Bengaluru, India",
@@ -5213,7 +4517,7 @@ const COMPANIES = [
   },
   {
     "name": "WattMonk",
-    "sector": "Climate Software",
+    "sector": "Climate Intelligence",
     "vertical": "Climate Software",
     "founded": "\u2014",
     "hq": "India",
@@ -5230,206 +4534,8 @@ const COMPANIES = [
     "differentiator": "3,000+ solar designs/month; US market focus with India delivery"
   },
   {
-    "name": "Bidgely",
-    "sector": "Climate Software",
-    "vertical": "Climate Software",
-    "founded": "\u2014",
-    "hq": "US / India",
-    "founders": "Abhay Gupta",
-    "oneliner": "AI disaggregation of utility AMI data; identifies appliance-level usage patterns",
-    "tech": "AI disaggregation of utility AMI data",
-    "stage": "Series D",
-    "funding": "$80M+ total",
-    "investors": "Khosla, Georgian, National Grid Partners",
-    "revenue_model": "AI-powered energy analytics and disaggregation technology for utilities; software licensing and data analytics services",
-    "target_market": "Electric utilities, energy suppliers, distribution operators, and governments seeking energy theft reduction",
-    "impact": "Optimizes energy demand, detects energy theft, and reduces revenue leakage through ML; supports renewable energy integration",
-    "website": "bidgely.com",
-    "differentiator": "Utility analytics for 40M+ meters; 20+ utility clients globally"
-  },
-  {
-    "name": "Aurora Solar",
-    "sector": "Climate Software",
-    "vertical": "Climate Software",
-    "founded": "\u2014",
-    "hq": "San Francisco, US",
-    "founders": "Chris Hopper",
-    "oneliner": "AI-powered solar design & sales platform for residential/C&I installers",
-    "tech": "AI-powered solar design & sales platform for residential/C&I installers",
-    "stage": "Series D",
-    "funding": "$300M+ total",
-    "investors": "Iconiq, Coatue, Fifth Wall, Energize",
-    "revenue_model": "Cloud-based SaaS platform for solar design, sales, and delivery; subscription licensing to solar companies and installers",
-    "target_market": "Solar installers, distributors, renewable energy companies, and solar engineers globally",
-    "impact": "Over 10M solar projects designed on platform, accelerating solar adoption and displacing millions of tons of carbon emissions",
-    "website": "aurorasolar.com",
-    "differentiator": "Used by 7000+ solar companies; automates permitting in US market"
-  },
-  {
-    "name": "Uplight",
-    "sector": "Climate Software",
-    "vertical": "Climate Software",
-    "founded": "\u2014",
-    "hq": "Boulder, CO",
-    "founders": "Adrian Tuck",
-    "oneliner": "Utility customer engagement platform; behavioral energy efficiency + demand flexibility",
-    "tech": "Utility customer engagement platform",
-    "stage": "Late Growth / M&A",
-    "funding": "$300M+ total",
-    "investors": "Schneider Electric",
-    "revenue_model": "Behavioral energy efficiency software, customer engagement marketplace, and virtual power plant (VPP) solutions for utilities",
-    "target_market": "Utilities, energy suppliers, residential and commercial energy consumers, distributed energy resource operators",
-    "impact": "Reduces energy consumption through behavioral insights; optimizes grid capacity by managing distributed renewable resources and flexible loads",
-    "website": "uplight.com",
-    "differentiator": "650+ utilities; 100M households reached; merged Tendril + Simple Energy"
-  },
-  {
-    "name": "Myst AI",
-    "sector": "Climate Software",
-    "vertical": "Climate Software",
-    "founded": "\u2014",
-    "hq": "San Francisco / EU",
-    "founders": "Orestis Tsinalis",
-    "oneliner": "Probabilistic energy forecasting using ML; grid load, generation, price",
-    "tech": "Probabilistic energy forecasting using ML",
-    "stage": "Acquired",
-    "funding": "Acquired",
-    "investors": "(Acquired by Uplight)",
-    "revenue_model": "AI-powered time-series forecasting and ML software for electricity demand, supply, and price prediction (acquired by Snowflake in 2023)",
-    "target_market": "Energy traders, utilities, renewable energy operators, and grid operators",
-    "impact": "Improves renewable energy integration and reduces grid imbalances through accurate forecasting of wind and solar generation",
-    "website": "myst.ai",
-    "differentiator": "Google Cloud partnership; used by European TSOs & DSOs"
-  },
-  {
-    "name": "Kraken Technologies",
-    "sector": "Climate Software",
-    "vertical": "Climate Software",
-    "founded": "\u2014",
-    "hq": "London, UK",
-    "founders": "Greg Jackson",
-    "oneliner": "Cloud-based utility OS; manages billing, switching, smart devices for 75M accounts",
-    "tech": "Cloud-based utility OS",
-    "stage": "Pre-IPO / Late Growth",
-    "funding": "$1B (latest round)",
-    "investors": "D1 Capital, Fidelity, Ontario Teachers",
-    "revenue_model": "AI-powered energy tech platform software licensed to utilities globally; serves 70M+ accounts through 40 utilities in 27 countries",
-    "target_market": "Energy utilities, water companies, telecommunications utilities, and offshore wind operators",
-    "impact": "Enables utility operations around renewable integration, customer self-service, and asset management for grid decarbonization",
-    "website": "kraken.tech",
-    "differentiator": "Only white-label energy platform at global utility scale; 68% ARR growth YoY"
-  },
-  {
-    "name": "Piclo",
-    "sector": "Climate Software",
-    "vertical": "Climate Software",
-    "founded": "\u2014",
-    "hq": "London, UK",
-    "founders": "James Johnston",
-    "oneliner": "Flexibility marketplace connecting DERs to grid operators for ancillary services",
-    "tech": "Flexibility marketplace connecting DERs to grid operators for ancillary services",
-    "stage": "Series B",
-    "funding": "$30M+ total",
-    "investors": "Aviva Investors, Downing Ventures",
-    "revenue_model": "Operates Piclo Flex marketplace for energy flexibility services and Piclo Max for electricity market access; transaction-based and subscription revenues",
-    "target_market": "Distribution system operators, renewable energy owners, battery and EV aggregators, and utility companies",
-    "impact": "Creates liquidity in energy flexibility markets enabling grid operators to defer infrastructure upgrades and integrate more renewables; manages 40+ GW flexible capacity",
-    "website": "piclo.energy",
-    "differentiator": "Operates under UK Ofgem framework; signed with National Grid ESO"
-  },
-  {
-    "name": "GridBeyond",
-    "sector": "Climate Software",
-    "vertical": "Climate Software",
-    "founded": "\u2014",
-    "hq": "Dublin, Ireland",
-    "founders": "Michael Phelan",
-    "oneliner": "AI-driven VPP & demand response; dispatches distributed energy assets in real-time",
-    "tech": "AI-driven VPP & demand response",
-    "stage": "Series C",
-    "funding": "$90M+ total",
-    "investors": "Alantra/Klima, Energy Impact Partners",
-    "revenue_model": "Battery energy storage systems (BESS) and AI-powered energy optimization platform; system sales and software subscriptions",
-    "target_market": "Data centers, industrial energy consumers, utilities, renewable energy operators, and grid operators",
-    "impact": "Optimizes renewable integration, reduces peak demand, and enables frequency response services; deployed at 350+ sites",
-    "website": "gridbeyond.com",
-    "differentiator": "70% avg revenue growth p.a.; OEM partnerships with ABB, Constellation"
-  },
-  {
-    "name": "Dexter Energy",
-    "sector": "Climate Software",
-    "vertical": "Climate Software",
-    "founded": "\u2014",
-    "hq": "Netherlands",
-    "founders": "CEO",
-    "oneliner": "AI-based energy trading for storage, solar, wind assets; day-ahead & intraday",
-    "tech": "AI-based energy trading for storage, solar, wind assets",
-    "stage": "Series A",
-    "funding": "$10M+ est.",
-    "investors": "SET Ventures, Rockstart",
-    "revenue_model": "AI-powered forecasting and trade optimization software for renewable energy and battery assets; fees based on volume managed or revenue optimization",
-    "target_market": "Renewable energy operators, energy traders, battery operators, solar and wind farm owners, and utilities",
-    "impact": "Maximizes profitability of renewable assets, reducing economic barriers to renewables and enabling better grid balancing",
-    "website": "dexterenergy.ai",
-    "differentiator": "Manages 3 GW+ energy assets; 90%+ algorithmic dispatch success rate"
-  },
-  {
-    "name": "Eliq",
-    "sector": "Climate Software",
-    "vertical": "Climate Software",
-    "founded": "\u2014",
-    "hq": "Sweden",
-    "founders": "Hakan Ludvigson",
-    "oneliner": "AI energy analytics for utilities; disaggregation, personalised savings tips",
-    "tech": "AI energy analytics for utilities",
-    "stage": "Series B",
-    "funding": "$20M+ total",
-    "investors": "EDP Ventures, Fortum Ventures",
-    "revenue_model": "SaaS energy data analytics platform providing utilities with customer insights and operational intelligence; subscription fees",
-    "target_market": "Electric utilities, smart home providers, energy service companies, and banks offering energy management services",
-    "impact": "Reduces customer energy consumption through personalized behavioral insights, enabling utilities to achieve efficiency and carbon reduction goals",
-    "website": "eliq.io",
-    "differentiator": "40+ utility clients across Europe; 10M+ end customers served"
-  },
-  {
-    "name": "Green Eagle Solutions",
-    "sector": "Climate Software",
-    "vertical": "Climate Software",
-    "founded": "\u2014",
-    "hq": "Spain",
-    "founders": "CEO",
-    "oneliner": "Digital twin for wind/solar asset performance management; remote sensing",
-    "tech": "Digital twin for wind/solar asset performance management",
-    "stage": "Growth",
-    "funding": "$15M+ est.",
-    "investors": "Iberdrola Ventures",
-    "revenue_model": "ARSOS autonomous renewable asset control and monitoring SaaS platform; software licensing to wind farm and renewable operators",
-    "target_market": "Wind farm operators, renewable energy companies, distribution system operators, and energy asset managers",
-    "impact": "Automates renewable operations increasing wind farm efficiency by EUR 200-400/MW/year while reducing manual interventions",
-    "website": "greeneagle.com",
-    "differentiator": "Major US & European wind portfolio clients; 4GW+ under management"
-  },
-  {
-    "name": "Ecoplanet",
-    "sector": "Climate Software",
-    "vertical": "Climate Software",
-    "founded": "\u2014",
-    "hq": "France / EU",
-    "founders": "CEO",
-    "oneliner": "AI-optimised concrete mix design for ~40% lower embodied carbon",
-    "tech": "AI-optimised concrete mix design for ~40% lower embodied carbon",
-    "stage": "Series A",
-    "funding": "$10M+ est.",
-    "investors": "Holcim Ventures, 2050",
-    "revenue_model": "AI-powered energy management software for industrial enterprises; subscription fees based on energy volume managed or optimization savings",
-    "target_market": "Industrial manufacturers, energy-intensive businesses, and corporate enterprises across 2,000+ locations",
-    "impact": "Reduces industrial energy costs by 20% and workload by 60% while optimizing green energy procurement and lowering carbon footprints",
-    "website": "ecoplanet.com",
-    "differentiator": "Partners with Holcim & LafargeHolcim; used in 250+ projects"
-  },
-  {
     "name": "Saroja Earth",
-    "sector": "Climate Software",
+    "sector": "Climate Intelligence",
     "vertical": "Climate Software",
     "founded": "2023",
     "hq": "Delhi, India",
@@ -5447,7 +4553,7 @@ const COMPANIES = [
   },
   {
     "name": "Molecular Semiconductor",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Green Materials",
     "founded": "\u2014",
     "hq": "\u2014",
@@ -5465,7 +4571,7 @@ const COMPANIES = [
   },
   {
     "name": "NoPo Nanotechnology",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Green Materials",
     "founded": "2011",
     "hq": "Bengaluru, India",
@@ -5483,7 +4589,7 @@ const COMPANIES = [
   },
   {
     "name": "Biocompute",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Green Materials",
     "founded": "\u2014",
     "hq": "Bengaluru, India",
@@ -5501,7 +4607,7 @@ const COMPANIES = [
   },
   {
     "name": "Nexus Power",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Green Materials",
     "founded": "2020",
     "hq": "Bhubaneswar, India",
@@ -5519,7 +4625,7 @@ const COMPANIES = [
   },
   {
     "name": "Paving Plus",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Green Materials",
     "founded": "2021",
     "hq": "India",
@@ -5537,7 +4643,7 @@ const COMPANIES = [
   },
   {
     "name": "altM",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Green Materials",
     "founded": "2022",
     "hq": "Bengaluru",
@@ -5555,7 +4661,7 @@ const COMPANIES = [
   },
   {
     "name": "Scimplify",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Green Materials",
     "founded": "\u2014",
     "hq": "Mumbai, India",
@@ -5573,7 +4679,7 @@ const COMPANIES = [
   },
   {
     "name": "Dalmia Polypro",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Green Materials",
     "founded": "\u2014",
     "hq": "India",
@@ -5591,7 +4697,7 @@ const COMPANIES = [
   },
   {
     "name": "Alt Mat",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Green Materials",
     "founded": "2019",
     "hq": "Ahmedabad, India",
@@ -5609,7 +4715,7 @@ const COMPANIES = [
   },
   {
     "name": "Amwoodo",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Green Materials",
     "founded": "2019",
     "hq": "Kolkata, India",
@@ -5627,7 +4733,7 @@ const COMPANIES = [
   },
   {
     "name": "Vasshin",
-    "sector": "Circular Economy",
+    "sector": "Industry & Circular Economy",
     "vertical": "Green Materials",
     "founded": "2019",
     "hq": "Delhi, India",
@@ -5645,7 +4751,7 @@ const COMPANIES = [
   },
   {
     "name": "Bridgeway Energy",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Grid & Power",
     "founded": "2022",
     "hq": "Delhi, India",
@@ -5663,7 +4769,7 @@ const COMPANIES = [
   },
   {
     "name": "Apeiro Energy",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Grid & Power",
     "founded": "2021",
     "hq": "Ahmedabad, India",
@@ -5681,7 +4787,7 @@ const COMPANIES = [
   },
   {
     "name": "ElectrikBee",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Grid & Power",
     "founded": "2022",
     "hq": "Delhi, India",
@@ -5699,7 +4805,7 @@ const COMPANIES = [
   },
   {
     "name": "Global Himalayan Expedition",
-    "sector": "Nature-Based",
+    "sector": "Food, Land & Carbon",
     "vertical": "Nature-Based",
     "founded": "2013",
     "hq": "\u2014",
@@ -5717,7 +4823,7 @@ const COMPANIES = [
   },
   {
     "name": "Varaha",
-    "sector": "Nature-Based",
+    "sector": "Food, Land & Carbon",
     "vertical": "Nature-Based",
     "founded": "2022",
     "hq": "India",
@@ -5735,7 +4841,7 @@ const COMPANIES = [
   },
   {
     "name": "Vikalp",
-    "sector": "Other",
+    "sector": "Industry & Circular Economy",
     "vertical": "Other Cleantech",
     "founded": "\u2014",
     "hq": "\u2014",
@@ -5753,7 +4859,7 @@ const COMPANIES = [
   },
   {
     "name": "Agnikul Cosmos",
-    "sector": "Other",
+    "sector": "Industry & Circular Economy",
     "vertical": "Other Cleantech",
     "founded": "2017",
     "hq": "Chennai, India",
@@ -5771,7 +4877,7 @@ const COMPANIES = [
   },
   {
     "name": "CynLr",
-    "sector": "Other",
+    "sector": "Industry & Circular Economy",
     "vertical": "Other Cleantech",
     "founded": "2019",
     "hq": "Bengaluru, India",
@@ -5789,7 +4895,7 @@ const COMPANIES = [
   },
   {
     "name": "TruAlt Bioenergy",
-    "sector": "Other",
+    "sector": "Industry & Circular Economy",
     "vertical": "Other Cleantech",
     "founded": "2021",
     "hq": "Bengaluru",
@@ -5807,7 +4913,7 @@ const COMPANIES = [
   },
   {
     "name": "Greenjoules",
-    "sector": "Other",
+    "sector": "Industry & Circular Economy",
     "vertical": "Other Cleantech",
     "founded": "2018",
     "hq": "Pune, India",
@@ -5824,26 +4930,8 @@ const COMPANIES = [
     "differentiator": "200+ commercial buildings managed; guaranteed energy savings contracts"
   },
   {
-    "name": "Terra.do",
-    "sector": "Other",
-    "vertical": "Other Cleantech",
-    "founded": "2020",
-    "hq": "San Francisco, US (global)",
-    "founders": "Anshuman Bapna, Kamal Kapadia, Mayank Jain",
-    "oneliner": "Online climate school offering education and training for climate entrepreneurs and professionals",
-    "tech": "Climate education, career development platform",
-    "stage": "Seed",
-    "funding": "$6.4M",
-    "investors": "Rainmatter, Stanford Angels, BEENEXT, C3 Capital",
-    "revenue_model": "Course fees, fellowships",
-    "target_market": "Climate career switchers, professionals",
-    "impact": "Accelerates climate workforce development globally",
-    "website": "terra.do",
-    "differentiator": "Online climate education platform for career switchers; Tech: Climate career development"
-  },
-  {
     "name": "Krishna Arya Tech",
-    "sector": "Other",
+    "sector": "Clean Energy & Storage",
     "vertical": "Clean Cooking",
     "founded": "\u2014",
     "hq": "Pune, India",
@@ -5861,7 +4949,7 @@ const COMPANIES = [
   },
   {
     "name": "ReNew Power",
-    "sector": "Clean Energy",
+    "sector": "Clean Energy & Storage",
     "vertical": "Wind Energy",
     "founded": "2011",
     "hq": "Gurugram, India",
@@ -5878,7 +4966,7 @@ const COMPANIES = [
     "differentiator": "India's largest renewable energy company with 10.3+ GW solar and wind capacity; backed by CPPIB, Goldman Sachs"
   }
 ];
-const SECTOR_COLORS = {"Clean Energy": "#F59E0B", "Mobility & Transport": "#3B82F6", "Green Hydrogen": "#10B981", "Carbon & Capture": "#6366F1", "Agriculture & Food": "#84CC16", "Circular Economy": "#EC4899", "Built Environment": "#F97316", "Water & Ocean": "#06B6D4", "Climate Software": "#8B5CF6", "Energy Storage": "#EF4444", "Nature-Based": "#22C55E", "Other": "#64748B"};
+const SECTOR_COLORS = {"Clean Energy & Storage": "#f0a500", "Mobility & Transport": "#00c4ff", "Food, Land & Carbon": "#7ecb35", "Industry & Circular Economy": "#ff6b35", "Built Environment & Cities": "#b06eff", "Climate Intelligence": "#2eff7b"};
 
 function renderTable(data) {
   const tbody = document.getElementById('companies-tbody');
